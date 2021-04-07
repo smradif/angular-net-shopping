@@ -1,0 +1,339 @@
+[
+  {
+    "Id": "1",
+    "Name": "Suede Combat Boots",
+    "Description": {
+      "Colour": "Stone",
+      "Text": "Featuring the COMBAT lace-up ankle boots. These shoes are made from 100% cow suede with soft leather lining for comfort. Construction details include an ankle high rise, waxed laces, tonal top stitching and a durable sole. An SPCC metal ingot is attached to the collar."
+    },
+    "ProductPhoto": {
+      "Name": "footwear-1",
+      "Extra": 3
+    },
+    "Price": 1799.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Footwear",
+    "Sizes": [
+      {
+        "Value": "6"
+      },
+      {
+        "Value": "7",
+        "IsSelected": true
+      },
+      {
+        "Value": "8"
+      },
+      {
+        "Value": "9"
+      },
+      {
+        "Value": "10"
+      },
+      {
+        "Value": "11"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Suede Combat Boots",
+    "Description": {
+      "Colour": "Grey",
+      "Text": "Featuring the COMBAT lace-up ankle boots. These shoes are made from 100% cow suede with soft leather lining for comfort. Construction details include an ankle high rise, waxed laces, tonal top stitching and a durable sole. An SPCC metal ingot is attached to the collar."
+    },
+    "ProductPhoto": {
+      "Name": "footwear-2",
+      "Extra": 3
+    },
+    "Price": 1799.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Footwear",
+    "Sizes": [
+      {
+        "Value": "6",
+        "IsSelected": true
+      },
+      {
+        "Value": "7"
+      },
+      {
+        "Value": "8"
+      },
+      {
+        "Value": "9"
+      },
+      {
+        "Value": "10"
+      },
+      {
+        "Value": "11"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Suede Chelsea Boots",
+    "Description": {
+      "Colour": "Grey",
+      "Text": "Featuring the CHELSEA pull-on ankle boots. These shoes uppers are crafted from 100% cow suede with soft leather lining for comfort. This style features an ankle high rise and an elasticated collar for comfortable fit. Finer details include a back tab to aid with pulling on, tonal top stitching and a durable rubber sole. An SPCC metal ingot is attached to the collar."
+    },
+    "ProductPhoto": {
+      "Name": "footwear-3",
+      "Extra": 3
+    },
+    "Price": 1799.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Footwear",
+    "Sizes": [
+      {
+        "Value": "6"
+      },
+      {
+        "Value": "7"
+      },
+      {
+        "Value": "8"
+      },
+      {
+        "Value": "9",
+        "IsSelected": true
+      },
+      {
+        "Value": "10"
+      },
+      {
+        "Value": "11"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Magnus Sneaker",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "The MAGNUS sneaker has been constructed from premium locally sourced suede leather. The shoes feature a very durable branded rubber bucket sole with full leather sock and lining for durability and comfort. Some of the finer details include an antique silver branded S.P.C.C clip, antique silver eyelets and waxed cotton flat laces."
+    },
+    "ProductPhoto": {
+      "Name": "footwear-4",
+      "Extra": 3
+    },
+    "Price": 1299.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Footwear",
+    "Sizes": [
+      {
+        "Value": "6",
+        "IsSelected": true
+      },
+      {
+        "Value": "7"
+      },
+      {
+        "Value": "8"
+      },
+      {
+        "Value": "9"
+      },
+      {
+        "Value": "10"
+      },
+      {
+        "Value": "11"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Tyco Sneaker",
+    "Description": {
+      "Colour": "Black",
+      "Text": "Introducing the TYCO high-top sneakers with a scuffed chunky sole. These shoes uppers are crafted from 100% cow suede with soft leather lining for comfort. The sole is constructed from durable rubber and has been treated with a scuff finish for our signature lived in look. It features a short ankle rise, waxed laces, tonal top stitching. An S.P.C.C metal ingot is attached to the collar.",
+      "Alert": " For a more comfortable fit we recommend ONE SIZE DOWN."
+    },
+    "ProductPhoto": {
+      "Name": "footwear-5",
+      "Extra": 3
+    },
+    "Price": 1299.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Footwear",
+    "Sizes": [
+      {
+        "Value": "6",
+        "IsSelected": true
+      },
+      {
+        "Value": "7"
+      },
+      {
+        "Value": "8"
+      },
+      {
+        "Value": "9"
+      },
+      {
+        "Value": "10"
+      },
+      {
+        "Value": "11"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Tyco Sneaker",
+    "Description": {
+      "Colour": "Rust",
+      "Text": "Introducing the TYCO high-top sneakers with a scuffed chunky sole. These shoes uppers are crafted from 100% cow suede with soft leather lining for comfort. The sole is constructed from durable rubber and has been treated with a scuff finish for our signature lived in look. It features a short ankle rise, waxed laces, tonal top stitching. An S.P.C.C metal ingot is attached to the collar.",
+      "Alert": " For a more comfortable fit we recommend ONE SIZE DOWN."
+    },
+    "ProductPhoto": {
+      "Name": "footwear-6",
+      "Extra": 3
+    },
+    "Price": 1299.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Footwear",
+    "Sizes": [
+      {
+        "Value": "6"
+      },
+      {
+        "Value": "7",
+        "IsSelected": true
+      },
+      {
+        "Value": "8"
+      },
+      {
+        "Value": "9"
+      },
+      {
+        "Value": "10"
+      },
+      {
+        "Value": "11"
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "Tyco Sneaker",
+    "Description": {
+      "Colour": "Grey Mud",
+      "Text": "Introducing the TYCO high-top sneakers with a scuffed chunky sole. These shoes uppers are crafted from 100% cow suede with soft leather lining for comfort. The sole is constructed from durable rubber and has been treated with a scuff finish for our signature lived in look. It features a short ankle rise, waxed laces, tonal top stitching. An S.P.C.C metal ingot is attached to the collar.",
+      "Alert": " For a more comfortable fit we recommend ONE SIZE DOWN."
+    },
+    "ProductPhoto": {
+      "Name": "footwear-7",
+      "Extra": 3
+    },
+    "Price": 1299.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Footwear",
+    "Sizes": [
+      {
+        "Value": "6"
+      },
+      {
+        "Value": "7"
+      },
+      {
+        "Value": "8",
+        "IsSelected": true
+      },
+      {
+        "Value": "9"
+      },
+      {
+        "Value": "10"
+      },
+      {
+        "Value": "11"
+      }
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "Tyco Sneaker",
+    "Description": {
+      "Colour": "Burgundy",
+      "Text": "Introducing the TYCO high-top sneakers with a scuffed chunky sole. These shoes uppers are crafted from 100% cow suede with soft leather lining for comfort. The sole is constructed from durable rubber and has been treated with a scuff finish for our signature lived in look. It features a short ankle rise, waxed laces, tonal top stitching. An S.P.C.C metal ingot is attached to the collar.",
+      "Alert": " For a more comfortable fit we recommend ONE SIZE DOWN."
+    },
+    "ProductPhoto": {
+      "Name": "footwear-8",
+      "Extra": 3
+    },
+    "Price": 1299.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Footwear",
+    "Sizes": [
+      {
+        "Value": "6"
+      },
+      {
+        "Value": "7"
+      },
+      {
+        "Value": "8",
+        "IsSelected": true
+      },
+      {
+        "Value": "9"
+      },
+      {
+        "Value": "10"
+      },
+      {
+        "Value": "11"
+      }
+    ]
+  },
+  {
+    "Id": "9",
+    "Name": "Suede Chelsea Boots",
+    "Description": {
+      "Colour": "Stone",
+      "Text": "Featuring the CHELSEA pull-on ankle boots. These shoes uppers are crafted from 100% cow suede with soft leather lining for comfort. This style features an ankle high rise and an elasticated collar for comfortable fit. Finer details include a back tab to aid with pulling on, tonal top stitching and a durable rubber sole. An SPCC metal ingot is attached to the collar."
+    },
+    "ProductPhoto": {
+      "Name": "footwear-9",
+      "Extra": 3
+    },
+    "Price": 1799.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Footwear",
+    "Sizes": [
+      {
+        "Value": "6"
+      },
+      {
+        "Value": "7",
+        "IsSelected": true
+      },
+      {
+        "Value": "8"
+      },
+      {
+        "Value": "9"
+      },
+      {
+        "Value": "10"
+      },
+      {
+        "Value": "11"
+      }
+    ]
+  }
+]

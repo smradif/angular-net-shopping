@@ -1,0 +1,446 @@
+[
+  {
+    "Id": "1",
+    "Name": "Trench Skinny Denim Jeans",
+    "Description": {
+      "Colour": "Black",
+      "Text": "Featuring the TRENCH slim fit jeans constructed from a high quality 12 ounce 2 way stretch denim fabric. This TRENCH is a classic 5 pocket pair of jeans, skillfully finished in a dip dye effect. Additional features of this TRENCH include slitted knees, repaired patches, a genuine leather two toned branded waistband patch, antique silver branded rivet buttons and a metal coin ingot on the pocket. The heavy double stone wash creates the look and feel of authenticy."
+    },
+    "ProductPhoto": {
+      "Name": "jeans-1",
+      "Extra": 4
+    },
+    "Price": 999.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Jeans",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Trench Skinny Denim Jeans",
+    "Description": {
+      "Colour": "Bleach",
+      "Text": "Our TRENCH skinny jeans have been constructed with a high quality 12 ounce 2 way stretch denim fabric with hyper-flex technology. The TRENCH is a fitted pair of denims with enough stretch to ensure comfort and freedom of movement. These bleached denims feature a genuine leather two toned branded waistband patch, a metal coin ingot on the pocket and branded metal rivets. These denims have been finished off with a beautiful bleach and heavy double stone was for autenticity."
+    },
+    "ProductPhoto": {
+      "Name": "jeans-2",
+      "Extra": 4
+    },
+    "Price": 999.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Jeans",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Feather Slim Fit Denim Jeans",
+    "Description": {
+      "Colour": "Indigo",
+      "Text": "Our the FEATHER slim fit jeans are constructed from a high quality 12 ounce 2 way stretch denim fabric. This FEATHER features a classic 5 pocket design, skillfully finished in a deep indigo wash. Additional features of the FEATHER include rip & repair detail, lived-in marks, a genuine leather two toned branded waistband patch, a two toned coin pocket, antique silver branded rivet buttons and a metal coin ingot on the pocket. The heavy double stone wash creates the look and feel of authenticy."
+    },
+    "ProductPhoto": {
+      "Name": "jeans-3",
+      "Extra": 4
+    },
+    "Price": 1199.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Jeans",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Feather Slim Fit Denim Jeans",
+    "Description": {
+      "Colour": "Mid Black",
+      "Text": "Featuring the FEATHER slim fit jeans constructed from a high quality 12 ounce 2 way stretch denim fabric. This FEATHER is a classic 5 pocket pair of jeans, skillfully finished in a warm grey wash and with charcoal stitching . Additional features of the FEATHER include biting, a genuine leather two toned branded waistband patch, antique silver branded rivet buttons and a metal coin ingot on the pocket. The heavy double stone wash creates the look and feel of authenticy."
+    },
+    "ProductPhoto": {
+      "Name": "jeans-4",
+      "Extra": 4
+    },
+    "Price": 1199.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Jeans",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Trench Biker Skinny Jeans",
+    "Description": {
+      "Colour": "Bleach",
+      "Text": "Our \"biker\" inspired TRENCH skinny jeans have been constructed with a high quality 12 ounce 2 way stretch denim fabric with hyper-flex technology. The TRENCH is a fitted pair of denims with enough stretch to ensure comfort and freedom of movement. This style features frayed knee insets with horizontal roping detail on the knees. Additional details include a genuine leather two toned branded waistband patch, a metal coin ingot on the pocket, bleach distressing and branded metal rivets. These denims have been finished off with a heavy double stone wash for an authentic vintage look and feel."
+    },
+    "ProductPhoto": {
+      "Name": "jeans-5",
+      "Extra": 4
+    },
+    "Price": 999.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Jeans",
+
+    "Sizes": [
+      {
+        "Value": "28"
+      },
+      {
+        "Value": "30",
+        "IsSelected": true
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Trench Skinny Denim Jeans",
+    "Description": {
+      "Colour": "Dirty Indigo",
+      "Text": "Our TRENCH skinny jeans have been constructed with a high quality 12 ounce 2 way stretch denim fabric with hyper-flex technology. The TRENCH is a fitted pair of denims with enough stretch to ensure comfort and freedom of movement. This style features biting along the legs, a genuine leather two toned branded waistband patch, a metal coin ingot on the pocket, corn stitching, grunge fabric distressing and branded metal rivets. These denims have been finished off with a heavy double stone wash for an authentic vintage look and feel."
+    },
+    "ProductPhoto": {
+      "Name": "jeans-6",
+      "Extra": 4
+    },
+    "Price": 999.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Jeans",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "Fox Denim Shirt",
+    "Description": {
+      "Colour": "Bleach",
+      "Text": "Featuring the FOX fitted long sleeved collared shirt with a sophisticated workwear look and feel. Constructed from high quality twill, the finer details include classic flap chest pockets with twill tape detail, branded buttons, a concealed button stand, antique silver side zips and a constrast woven hem label. The garment is put through a softening silicone wash to ensure this shirt is smooth to the touch."
+    },
+    "ProductPhoto": {
+      "Name": "jeans-7",
+      "Extra": 4
+    },
+    "Price": 799.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Jeans",
+
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "Feather Slim Fit Denim Jeans",
+    "Description": {
+      "Colour": "Deep Indigo",
+      "Text": "Our the FEATHER slim fit jeans are constructed from a high quality 12 ounce 2 way stretch denim fabric. This FEATHER features a classic 5 pocket design, skillfully finished in a deep indigo wash. Additional features of the FEATHER include rip & repair detail, lived-in marks, a genuine leather two toned branded waistband patch, a two toned coin pocket, antique silver branded rivet buttons and a metal coin ingot on the pocket. The heavy double stone wash creates the look and feel of authenticy."
+    },
+    "ProductPhoto": {
+      "Name": "jeans-8",
+      "Extra": 4
+    },
+    "Price": 1199.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Jeans",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "9",
+    "Name": "Feather Slim Fit Denim Jeans",
+    "Description": {
+      "Colour": "Warm Grey",
+      "Text": "Featuring the FEATHER slim fit jeans constructed from a high quality 12 ounce 2 way stretch denim fabric. This FEATHER is a classic 5 pocket pair of jeans, skillfully finished in a warm grey wash and with charcoal stitching . Additional features of the FEATHER include biting, a genuine leather two toned branded waistband patch, antique silver branded rivet buttons and a metal coin ingot on the pocket. The heavy double stone wash creates the look and feel of authenticy."
+    },
+    "ProductPhoto": {
+      "Name": "jeans-9",
+      "Extra": 4
+    },
+    "Price": 1199.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Jeans",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "10",
+    "Name": "Funnel Denim Jeans",
+    "Description": {
+      "Colour": "Mid Black",
+      "Text": "Our FUNNEL drop crotch jeans have been constructed with a high quality 12 ounce denim. The FUNNEL is a loose fitted pair of denims with enough room for comfort and mobility. The FUNNEL has been designed with a drop crotch, deep back patch pockets and tapered hem. These denims have been finished off with a heavy double stone wash with a heavy acid wash for an authentic distressed look."
+    },
+    "ProductPhoto": {
+      "Name": "jeans-10",
+      "Extra": 4
+    },
+    "Price": 1299.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Jeans",
+
+    "Sizes": [
+      {
+        "Value": "28"
+      },
+      {
+        "Value": "30",
+        "IsSelected": true
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "11",
+    "Name": "Feather Slimfit Denim Jeans",
+    "Description": {
+      "Colour": "Tinted Indigo",
+      "Text": "Featuring the FEATHER slim fit jeans constructed from a high quality 12 ounce 2 way stretch denim fabric. This FEATHER is a classic 5 pocket pair of jeans, skillfully finished in a dark indigo wash and customised two toned paint splatter effect. Additional features of the FEATHER include biting, sandblasting, a genuine leather two toned branded waistband patch, antique silver branded rivet buttons and a metal coin ingot on the pocket. The heavy double stone wash creates the look and feel of authenticy."
+    },
+    "ProductPhoto": {
+      "Name": "jeans-11",
+      "Extra": 4
+    },
+    "Price": 1199.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Jeans",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "12",
+    "Name": "Trench Biker Skinny Jeans",
+    "Description": {
+      "Colour": "Mid Black",
+      "Text": "Our \"biker\" inspired TRENCH skinny jeans have been constructed with a high quality 12 ounce 2 way stretch denim fabric with hyper-flex technology. The TRENCH is a fitted pair of denims with enough stretch to ensure comfort and freedom of movement. This style features frayed knee insets with horizontal roping detail and slight whiskering behind the knees. Additional details include a genuine leather two toned branded waistband patch, a metal coin ingot on the pocket, subtle fabric distressing and branded metal rivets. These denims have been finished off with a heavy double stone wash for an authentic vintage look and feel."
+    },
+    "ProductPhoto": {
+      "Name": "jeans-12",
+      "Extra": 4
+    },
+    "Price": 999.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Jeans",
+
+    "Sizes": [
+      {
+        "Value": "28"
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34",
+        "IsSelected": true
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  }
+]

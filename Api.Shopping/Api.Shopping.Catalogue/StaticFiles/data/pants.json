@@ -1,0 +1,458 @@
+[
+  {
+    "Id": "1",
+    "Name": "Axel Cropped Pants",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Introducing the AXEL cropped pants constructed from sturdy herringbone fabric with a slight drop crotch to allow for easy of movement! These pants include bellow pockets in the front and two bellow pockets at the back with flap detail. These tapered pants consist of an SPCC metal ingot branding on the back pocket flat, a metal rivet on the fly and branded button."
+    },
+    "ProductPhoto": {
+      "Name": "pants-1",
+      "Extra": 4
+    },
+    "Price": 899.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Pants",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Trigger Stovepipe Chino Pants",
+    "Description": {
+      "Colour": "Grey",
+      "Text": "Featuring the TRIGGER chino pants in a classic stovepipe silhouette. This style is crafted from 100% cotton twill with a high thread count for breathability and comfort in a relaxed fit. Our chinos have been updated with a coin slit pocket, an SP metal rivet on the fly, pleat detail at the waistband and an SPCC metal clip label above the back slit pocket. They have been finished off with a heavy enzyme wash to create highs and lows on the surface of the fabric for a genuine lived in look."
+    },
+    "ProductPhoto": {
+      "Name": "pants-2",
+      "Extra": 4
+    },
+    "Price": 899.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Pants",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Trigger Stovepipe Chino Pants",
+    "Description": {
+      "Colour": "Black",
+      "Text": "Featuring the TRIGGER chino pants in a classic stovepipe silhouette. This style is crafted from 100% cotton twill with a high thread count for breathability and comfort in a relaxed fit. Our chinos have been updated with a coin slit pocket, an SP metal rivet on the fly, pleat detail at the waistband and an SPCC metal clip label above the back slit pocket. They have been finished off with a heavy enzyme wash to create highs and lows on the surface of the fabric for a genuine lived in look."
+    },
+    "ProductPhoto": {
+      "Name": "pants-3",
+      "Extra": 4
+    },
+    "Price": 899.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Pants",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Brigade Jogger",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Featuring the BRIGADE twill joggers. These joggers have been crafted from 100% cotton twill with a high thread count for breathability and comfort in a relaxed fit. This jogger has been updated with custom cut & sew knee panels, cut & sew back flap concealed pockets and ankle zips. Branding include a metal rivet on the fly and branded metail rivet buttons."
+    },
+    "ProductPhoto": {
+      "Name": "pants-4",
+      "Extra": 4
+    },
+    "Price": 999.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Pants",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Cage Jogger",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "Introducing the updated CAGE joggers with pleated detail and tabbed cuffs. Constructed from high quality stretch cotton twill, the finer details include a concealed cargo pocket on the left side seam, a cut and sew gusset and inset panelling. These jogger pants include stylized back patch pockets with tab detailing, antique silver metal rivets, an SPCC clip label and is finished off with a heavy double enzyme wash for a lived in vintage look."
+    },
+    "ProductPhoto": {
+      "Name": "pants-5",
+      "Extra": 5
+    },
+    "Price": 999.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Pants",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Trigger Stovepipe Chino Pants",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Featuring the TRIGGER chino pants in a classic stovepipe silhouette. This style is crafted from 100% cotton twill with a high thread count for breathability and comfort in a relaxed fit. Our chinos have been updated with a coin slit pocket, an SP metal rivet on the fly, pleat detail at the waistband and an SPCC metal clip label above the back slit pocket. Finally the chinos have been treated with a heavy enzyme wash to create highs and lows on the surface of the fabric for a genuine lived in look."
+    },
+    "ProductPhoto": {
+      "Name": "pants-6",
+      "Extra": 5
+    },
+    "Price": 899.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Pants",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "Brigade Jogger",
+    "Description": {
+      "Colour": "Black",
+      "Text": "Featuring the BRIGADE twill joggers. These joggers have been crafted from 100% cotton twill with a high thread count for breathability and comfort in a relaxed fit. This jogger has been updated with custom cut & sew knee panels, cut & sew back flap concealed pockets and ankle zips. Branding include a metal rivet on the fly and branded metail rivet buttons."
+    },
+    "ProductPhoto": {
+      "Name": "pants-7",
+      "Extra": 5
+    },
+    "Price": 999.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Pants",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "Cage Jogger",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Introducing the updated CAGE joggers with pleated detail and tabbed cuffs. Constructed from high quality stretch cotton twill, the finer details include a concealed cargo pocket on the left side seam, a cut and sew gusset and inset panelling. These jogger pants include stylized back patch pockets with tab detailing, antique silver metal rivets, an SPCC clip label and is finished off with a heavy double enzyme wash for a lived in vintage look."
+    },
+    "ProductPhoto": {
+      "Name": "pants-8",
+      "Extra": 5
+    },
+    "Price": 999.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Pants",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "9",
+    "Name": "Trigger Stovepipe Chino Pants",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "Featuring the TRIGGER chino pants in a classic stovepipe silhouette. This style is crafted from 100% cotton twill with a high thread count for breathability and comfort in a relaxed fit. Our chinos have been updated with a coin slit pocket, an SP metal rivet on the fly, pleat detail at the waistband and an SPCC metal clip label above the back slit pocket. They have been finished off with a heavy enzyme wash to create highs and lows on the surface of the fabric for a genuine lived in look."
+    },
+    "ProductPhoto": {
+      "Name": "pants-9",
+      "Extra": 4
+    },
+    "Price": 899.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Pants",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "10",
+    "Name": "Allied Chino Jogger",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Introducing the ALLIED utility chino joggers. Constructed from a high quality stretch cotton twill with a dirty dyed effect on the surface. The chino joggers feature a coated draw cord at waistband, cargo pockets on front panels, cuffed hem and finished off with antique brass branded trims and buttons. The ALLIED chino has been crafted from a 100% sprayed cotton twill."
+    },
+    "ProductPhoto": {
+      "Name": "pants-10",
+      "Extra": 4
+    },
+    "Price": 999.95,
+    "SalePrice": 799.96,
+    "Quantity": 0,
+    "ProductType": "Pants",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "11",
+    "Name": "Delta Stovepipe Chino",
+    "Description": {
+      "Colour": "Burgandy",
+      "Text": "Featuring the TRIGGER chino pants in a classic stovepipe silhouette. This style is crafted from 100% cotton twill with a high thread count for breathability and comfort in a relaxed fit. Our chinos have been updated with a coin slit pocket, an SP metal rivet on the fly, pleat detail at the waistband and an SPCC metal clip label above the back slit pocket. They have been finished off with a heavy enzyme wash to create highs and lows on the surface of the fabric for a genuine lived in look."
+    },
+    "ProductPhoto": {
+      "Name": "pants-11",
+      "Extra": 3
+    },
+    "Price": 899.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Pants",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "12",
+    "Name": "Foxtrot Chino Joggers",
+    "Description": {
+      "Colour": "Camo",
+      "Text": "Introducing the FOXTROT camo chino joggers. Constructed from a 100% high quality printed stretch cotton twill and finished off with a heavy double enzyme wash for a lived in vintage look. The finer details of these chino joggers include cargo pockets at side seams, cuffed and tabbed hem, a coated drawstring at the waistband and finished off with antique brass branded trims and buttons."
+    },
+    "ProductPhoto": {
+      "Name": "pants-12",
+      "Extra": 4
+    },
+    "Price": 999.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Pants",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  }
+]

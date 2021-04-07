@@ -1,0 +1,281 @@
+[
+  {
+    "Id": "1",
+    "Name": "Stealth Bomber Jacket",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "Featuring the STEALTH zip up 2-in-1 quilted bomber jacket. This camo printed jacket portrays a traditional bomber silhouette and is constructed from high quality woven nylon. This style features detachable sleeves which lends itself to be worn as a sleeveless or full sleeved bomber. The finer details include a left chest chevron shield, SERGEANT PEPPER embroidered right sleeve applique and branded tag on the left sleeve pocket. An exceptional transitional item to have!"
+    },
+    "ProductPhoto": {
+      "Name": "featured-1",
+      "Extra": 4
+    },
+    "Price": 1599.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Featured",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Storm Jacket",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Introducing the STORM waterproof ripstop jacket. This olive lightweight jacket consists of a slight scooped hem and a birdseye netted hood lining for extra comfort. Extra features include elasticated cuffs, reverse zip details, hood toggles and a left chest contrast print. This garment is an exceptional transitional item to have!"
+    },
+    "ProductPhoto": {
+      "Name": "featured-2",
+      "Extra": 4
+    },
+    "Price": 999.95,
+    "SalePrice": 949.95,
+    "Quantity": 100,
+    "ProductType": "Featured",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Gulf Jacket",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Introducing the GULF workwear jacket. This structured jacket is constructed from high quality cotton with 2% spandex for ease and comfort. Additional features include a point collar, concealed front buttons and left chest pocket. The jacket is washed with heavy enzyme wash and silicone softener for a soft and smooth handle."
+    },
+    "ProductPhoto": {
+      "Name": "featured-3",
+      "Extra": 4
+    },
+    "Price": 1299.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Featured",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Wolfpack Jacket",
+    "Description": {
+      "Colour": "Black",
+      "Text": "The WOLFPACK PU bomber jacket is produced from high-quality imitaition leather which is soft and luxurious to the touch. This well-fitted bomber jacket is lined with our signature quilted stitching and is finished off with antique silver branded zips, rivet buttons and zipped chest pocket. The sturdy tonal rib around the neck, hem and cuffs ensure warmth and comfort for every wearer. A branded zip puller finishes the pocket detail on the sleeve."
+    },
+    "ProductPhoto": {
+      "Name": "featured-4",
+      "Extra": 4
+    },
+    "Price": 1599.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Featured",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Operator Denim Jacket",
+    "Description": {
+      "Colour": "Black",
+      "Text": "Introducing the OPERATOR distressed denim trucker jacket. This fitted jacket is constructed from high quality 100% cotton and designed with a point collar. The jacket has cut and sew front panels, chest and side entry hand pockets and is detailed with branded rivet buttons, antique silver cuff zips and custom rip and repairs.This jacket has been expertly washed to create an aged Western look."
+    },
+    "ProductPhoto": {
+      "Name": "featured-5",
+      "Extra": 4
+    },
+    "Price": 1399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Featured",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Stealth Bomber Jacket",
+    "Description": {
+      "Colour": "Fatigue",
+      "Text": "Featuring the STEALTH zip up 2-in-1 quilted bomber jacket. This fatigue camo printed jacket portrays a traditional bomber silhouette and is constructed from high quality woven nylon. This style features detachable sleeves which lends itself to be worn as a sleeveless or full sleeved bomber. The finer details include a left chest chevron shield, SERGEANT PEPPER embroidered right sleeve applique and branded tag on the left sleeve pocket. An exceptional transitional item to have!"
+    },
+    "ProductPhoto": {
+      "Name": "featured-6",
+      "Extra": 4
+    },
+    "Price": 1599.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Featured",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "Compound Denim Pullover Jacket",
+    "Description": {
+      "Colour": "Acid Wash",
+      "Text": "Introducing the COMPOUND heavy acid wash pullover denim jacket with removable hood and half zip. This jacket is constructed from high quality 100% cotton resulting in constrasting highs and lows. The hood is lined with deluxe soft sherpa and can be zipped off for a more relaxed look. The finer details include a supple cotton lining for protection from the cold, contrast debossed tan leather sleeve and hem labels, side entry front slit pockets, branded drawcords and finished off with side seam antique silver zips."
+    },
+    "ProductPhoto": {
+      "Name": "featured-7",
+      "Extra": 5
+    },
+    "Price": 1799.95,
+    "SalePrice": 1599.95,
+    "Quantity": 100,
+    "ProductType": "Featured",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "Navigator Parka Jacket",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Introducing the NAVIGATOR heavy duty parka jacket with a luxuriously soft quilted lining. This jacket has been constructed with a combination of polyester, cotton and nylon to provide optimum warmth and resistance agaist the winter elements. The finer details include a fishtail back slit, a cap peak hood, high collared neckline for added protection around the neck, extra stitching details on the sleeves and a felt embroidered sleeve badge. Additional features include multiple pockets, adjustable cuffs, branded metal zips and rivet buttons."
+    },
+    "ProductPhoto": {
+      "Name": "featured-8",
+      "Extra": 6
+    },
+    "Price": 1999.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Featured",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "9",
+    "Name": "Navigator Parka Jacket",
+    "Description": {
+      "Colour": "Black",
+      "Text": "Introducing the NAVIGATOR heavy duty parka jacket with a luxuriously soft quilted lining. This jacket has been constructed with a combination of polyester, cotton and nylon to provide optimum warmth and resistance agaist the winter elements. The finer details include a fishtail back slit, a cap peak hood, high collared neckline for added protection around the neck, extra stitching details on the sleeves and a felt embroidered sleeve badge. Additional features include multiple pockets, adjustable cuffs, branded metal zips and rivet buttons."
+    },
+    "ProductPhoto": {
+      "Name": "featured-9",
+      "Extra": 6
+    },
+    "Price": 1999.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Featured",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  }
+]

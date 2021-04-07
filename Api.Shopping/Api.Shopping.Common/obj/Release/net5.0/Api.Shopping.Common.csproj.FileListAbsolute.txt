@@ -1,0 +1,12 @@
+D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\bin\Release\net5.0\Api.Shopping.Common.deps.json
+D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\bin\Release\net5.0\Api.Shopping.Common.dll
+D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\bin\Release\net5.0\ref\Api.Shopping.Common.dll
+D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\bin\Release\net5.0\Api.Shopping.Common.pdb
+D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\obj\Release\net5.0\Api.Shopping.Common.csprojAssemblyReference.cache
+D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\obj\Release\net5.0\Api.Shopping.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\obj\Release\net5.0\Api.Shopping.Common.AssemblyInfoInputs.cache
+D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\obj\Release\net5.0\Api.Shopping.Common.AssemblyInfo.cs
+D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\obj\Release\net5.0\Api.Shopping.Common.csproj.CoreCompileInputs.cache
+D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\obj\Release\net5.0\Api.Shopping.Common.dll
+D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\obj\Release\net5.0\ref\Api.Shopping.Common.dll
+D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\obj\Release\net5.0\Api.Shopping.Common.pdb

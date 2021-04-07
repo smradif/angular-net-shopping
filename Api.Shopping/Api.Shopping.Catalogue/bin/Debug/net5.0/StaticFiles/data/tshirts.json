@@ -1,0 +1,371 @@
+[
+  {
+    "Id": "1",
+    "Name": "Military SPCC Print T-Shirt",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "Our SPCC basic crew neck t-shirt has been crafted from a premium 160gm combed cotton yarn. The finer details include narrow binding at neckline, scooped back hemline and latest S.P.C.C front chest applique. The garment is washed with a heavy enzyme wash and silicone softener for a soft and smooth handle."
+    },
+    "ProductPhoto": {
+      "Name": "tshirts-1",
+      "Extra": 4
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "TShirts",
+    "Sizes": [
+      {
+        "Value": "Medium",
+        "IsSelected": true
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Military SPCC Print T-Shirt",
+    "Description": {
+      "Colour": "Grey Melange",
+      "Text": "Our SPCC basic crew neck t-shirt has been crafted from a premium 160gm combed cotton yarn. The finer details include narrow binding at neckline, scooped back hemline and latest S.P.C.C front chest applique. This garment has been finished off with a heavy enzyme wash and silicone softener for a soft and smooth handle."
+    },
+    "ProductPhoto": {
+      "Name": "tshirts-2",
+      "Extra": 4
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "TShirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Shadow T-Shirt",
+    "Description": {
+      "Colour": "Black",
+      "Text": "Our SHADOW t-shirt features the classic henley style silhouette with a heavy dirty dye wash. Details include a three button plaquet, side slits, a rubberized printed cut & sew label at sleeve and front hem. The henley styled t-shirt is finished off with rib around the neck and sleeves."
+    },
+    "ProductPhoto": {
+      "Name": "tshirts-3",
+      "Extra": 4
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "TShirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "NYC T-Shirt",
+    "Description": {
+      "Colour": "White",
+      "Text": "Introducing the NYC crew neck t-shirt, which is crafted from premium 160gm combed cotton yarn. The garment features raw edging around the neck, hem and sleeves as well as a front distressed graphic print. The fabric is treated with a heavy enzyme wash, which provides hi's & low's along the seams and finished with a silicone softener for a soft handle."
+    },
+    "ProductPhoto": {
+      "Name": "tshirts-4",
+      "Extra": 4
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "TShirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Pilot Golfer",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "The PILOT short sleeved regular fit golfer is constructed from a premium pique knit with a matching rib collar. Details for this style include a chevron applique badge on the left chest and distressed branded buttons . Constructed using only the highest quality 100% cotton that has been given an enzyme wash for a lived in look."
+    },
+    "ProductPhoto": {
+      "Name": "tshirts-5",
+      "Extra": 4
+    },
+    "Price": 499.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "TShirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Spike T-shirt",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Featuring the SPIKE crew neck cotton slub t-shirt. This t-shirt has faint printed stripes on the back and front for a subtle effect. Other details include a left chest charcoal embroidery as well as a branded woven label."
+    },
+    "ProductPhoto": {
+      "Name": "tshirts-6",
+      "Extra": 4
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "TShirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "Slate T-Shirt",
+    "Description": {
+      "Colour": "Dusty Pink",
+      "Text": "Our SLATE relaxed fit crew neck t-shirt has been constructed from a premium cotton slub. The SLATE t-shirt includes narrow binding at neckline, an asymmetrical left chest pocket finishing into the side seam and printed woven label. This garment is finished with a silicone softener for a soft and smooth handle."
+    },
+    "ProductPhoto": {
+      "Name": "tshirts-7",
+      "Extra": 4
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "TShirts",
+    "Sizes": [
+      {
+        "Value": "Small"
+      },
+      {
+        "Value": "Medium",
+        "IsSelected": true
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "Granite Oversized T-Shirt",
+    "Description": {
+      "Colour": "Washed Black",
+      "Text": "Introducing the GRANITE oversized crew neck t-shirt. This loose fitted tee is crafted from premium 160gm combed cotton yarn, resulting in a relaxed look and feel. The t-shirt features a slouchy chest pocket and tonal woven hem label. The fabric is treated with a dirty dye effect for a vintage look and is finished off with a heavy enzyme wash and silicone softener for a soft and smooth handle."
+    },
+    "ProductPhoto": {
+      "Name": "tshirts-8",
+      "Extra": 4
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "TShirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "9",
+    "Name": "Fleck T-Shirt",
+    "Description": {
+      "Colour": "Washed Black",
+      "Text": "Featuring the FLECK basic crew neck t-shirt. This tee has been crafted from premium 160gm combed cotton, with the addition of subtle contrast flecks. This reversed cover seam t-shirt features a left chest pocket detail, woven hem label and finally finished off with a silicone softener for a soft and smooth handle."
+    },
+    "ProductPhoto": {
+      "Name": "tshirts-9",
+      "Extra": 4
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "TShirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "10",
+    "Name": "Sergeant Graphic Printed T-Shirt",
+    "Description": {
+      "Colour": "Black",
+      "Text": "Featuring the SERGEANT crew neck raw edge t-shirt. This t-shirt has been treated with a reverse dirty dye wash to create an easy wearing and well washed garment. The SERGEANT laser cut felt applique branding across the chest is finished in a tonal pigment and the modest side slits create a slight step hem."
+    },
+    "ProductPhoto": {
+      "Name": "tshirts-10",
+      "Extra": 4
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "TShirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "11",
+    "Name": "Origin Chevron T-Shirt",
+    "Description": {
+      "Colour": "Dusty Pink",
+      "Text": "Our ORIGINS basic crew neck t-shirt has been crafted from a premium 160gm combed cotton yarn. The finer details include narrow binding at the neckline, scooped back hemline, metal clip label at sleeve and our chevron left chest embroidery. We have finished off this tee with a heavy enzyme wash and silicone softener for a soft and smooth handle."
+    },
+    "ProductPhoto": {
+      "Name": "tshirts-11",
+      "Extra": 4
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "TShirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "12",
+    "Name": "Origin Branded Chevron T-Shirt",
+    "Description": {
+      "Colour": "White",
+      "Text": "Our ORIGINS basic crew neck t-shirt has been crafted from a premium 160gm combed cotton yarn. The finer details include narrow binding at the neckline, scooped back hemline, metal clip label at sleeve and our chevron left chest embroidery. We have finished off this tee with a heavy enzyme wash and silicone softener for a soft and smooth handle."
+    },
+    "ProductPhoto": {
+      "Name": "tshirts-12",
+      "Extra": 4
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "TShirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  }
+]

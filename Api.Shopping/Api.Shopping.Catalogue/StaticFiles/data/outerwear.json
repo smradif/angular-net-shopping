@@ -1,0 +1,291 @@
+[
+  {
+    "Id": "1",
+    "Name": "Hero Sweate",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "Featuring the HERO acid wash pullover with a contrast SPCC front chest applique. Prepared from 100% cotton French Terry, this style features side slits to provide constrast inset and is finished with antique silver side zips. Design details include a contrast woven hem label embroidered SPCC twill sleeve label, a tonal left chest felt badge and chunky knit drawcords with metal tips. Each garment has gone through a heavy enzyme wash and silicone softener for an authentic lived in look and feel."
+    },
+    "ProductPhoto": {
+      "Name": "outerwear-1",
+      "Extra": 5
+    },
+    "Price": 899.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Outerwear",
+
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Ranger Longer Length Hoody",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Featuring the RANGER longer length pullover hoody with acid wash and front bellow pocket. Prepared from 100% cotton French Terry in a relaxed slihoutte. The finer details of this hoody include an embroidered SPCC twill sleeve label, a tonal left chest felt badge and chunky knit drawcords with metal tips. Each garment has been finished off with a heavy enzyme wash and silicone softener for an authentic lived in look and feel.",
+      "Alert": "Please note that due to the garment wash images are not an exact reflection of the garment. Each individual garment will have variances and differences between one another due to the wash."
+    },
+    "ProductPhoto": {
+      "Name": "outerwear-2",
+      "Extra": 5
+    },
+    "Price": 899.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Outerwear",
+
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Archer Sweater",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Featuring the ARCHER olive regular fit pullover sweater with S.P.C.C applique across front chest. The finer details of this sweater include branded antique metal zips at side seams, contrast ribbing on neckline, waistband and sleeves with Sergeant Pepper label on the front left hem."
+    },
+    "ProductPhoto": {
+      "Name": "outerwear-3",
+      "Extra": 4
+    },
+    "Price": 899.95,
+    "SalePrice": 719.96,
+    "Quantity": 0,
+    "ProductType": "Outerwear",
+
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Echo Jersey",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "Featuring the ECHO Aztec knit jersey. Crafted in a unique knitted Aztec pattern from 100% premium cotton yarn. This jersey design details include tightly knitted ribbing at the sleeve cuffs and hem with an embossed PU winder. The garment has been treated with a heavy enzyme wash to create highs and lows on the garment surface and finished off with silicone softener for a soft hand feel."
+    },
+    "ProductPhoto": {
+      "Name": "outerwear-4",
+      "Extra": 2
+    },
+    "Price": 899.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Outerwear",
+
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Admiral Sweater",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "Introducing our relaxed fit ADMIRAL sweater, crafted with a 100% high quality cotton diagonal rib knit. This hoody's fabric is crafted to be comfortable, breathable with a subtle drape. Finer details include slanted welt pockets and an S.P.C.C label attached above the waistband. To achieve a lived in look and feel, this hoody has been put through a heavy enzyme wash and a silicone softener."
+    },
+    "ProductPhoto": {
+      "Name": "outerwear-5",
+      "Extra": 4
+    },
+    "Price": 899.95,
+    "SalePrice": 719.96,
+    "Quantity": 0,
+    "ProductType": "Outerwear",
+
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Colonel Sweater",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "Featuring the COLONEL regular fit pullover sweater with a large S.P.C.C embossed PU print on front panel. Crafted from 100% Cotton premium French Terry in a relaxed slihoutte. Design features include long sleeves, matching ribbing on neckline, waistband and sleeves. Each garment has gone through a heavy enzyme wash and silicone softener for an authentic lived in look and hand feel."
+    },
+    "ProductPhoto": {
+      "Name": "outerwear-6",
+      "Extra": 3
+    },
+    "Price": 899.95,
+    "SalePrice": 719.96,
+    "Quantity": 0,
+    "ProductType": "Outerwear",
+
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "Admiral Sweater",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Introducing our relaxed fit ADMIRAL sweater, crafted with a 100% high quality cotton diagonal rib knit. The fabric is crafted to be comfortable, breathable with a subtle drape. Finer details include slanted welt pockets and an S.P.C.C label attached above the waistband. To achieve a lived in look and feel, garment has been put through a heavy enzyme wash and a silicone softener"
+    },
+    "ProductPhoto": {
+      "Name": "outerwear-7",
+      "Extra": 3
+    },
+    "Price": 899.95,
+    "SalePrice": 719.96,
+    "Quantity": 100,
+    "ProductType": "Outerwear",
+
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "York Jersey",
+    "Description": {
+      "Colour": "White/Grey",
+      "Text": "Featuring the YORK mottled Jersey. This crew neck Jersey has been made from 100% yarn dyed cotton and featured a stepped hem. The finer details include reverse knit detailing on the shoulders and sleeves, a branded S.P.C.C woven label at the hem."
+    },
+    "ProductPhoto": {
+      "Name": "outerwear-8",
+      "Extra": 4
+    },
+    "Price": 999.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Outerwear",
+
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "9",
+    "Name": "York Jersey",
+    "Description": {
+      "Colour": "Blk/Grey",
+      "Text": "Featuring the YORK mottled Jersey. This crew neck Jersey has been made from 100% yarn dyed cotton and featured a stepped hem. The finer details include reverse knit detailing on the shoulders and sleeves, a branded S.P.C.C woven label at the hem."
+    },
+    "ProductPhoto": {
+      "Name": "outerwear-9",
+      "Extra": 6
+    },
+    "Price": 999.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Outerwear",
+
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  }
+]

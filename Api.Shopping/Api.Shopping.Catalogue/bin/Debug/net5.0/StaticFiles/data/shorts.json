@@ -1,0 +1,458 @@
+[
+  {
+    "Id": "1",
+    "Name": "Gunbarrel Shorts",
+    "Description": {
+      "Colour": "Black Wash",
+      "Text": "Our GUNBARREL shorts have been constructed with a high quality 12 ounce denim. The GUNBARREL are a pair of fitted denims with five pocket detail. These shorts have been designed with a 2-way stretch, creasing detail, regular rise and cut and sew back patch pockets. The shorts have been finished off with our genuine leather back patch label, branded black rivets and a heavy double stone wash with a heavy acid wash for an authentic distressed look."
+    },
+    "ProductPhoto": {
+      "Name": "shorts-1",
+      "Extra": 4
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Shorts",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Scout Shorts",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Our SCOUT chino shorts have been constructed with a high quality cotton for breathability and comfort. The SCOUT shorts are fitted with a five pocket detail and inner-leg gusset. They have been designed with incredible stretch, pleat detail, a regular rise and back jet pockets. These shorts have been finished off with our genuine leather back patch label, branded black rivets, hem turn-ups and a heavy enzyme wash for an lived-in look."
+    },
+    "ProductPhoto": {
+      "Name": "shorts-2",
+      "Extra": 4
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Shorts",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Cove Swimmer Shorts",
+    "Description": {
+      "Colour": "Dusty Pink",
+      "Text": "Our COVE swimmer shorts are a pair of above the knee short with a three pocket detail. These shorts have been designed with a cut & sew technique to show case a tropical printed insert panel. Other features include a functional zip at back pocket, a regular rise, branded eyelets, branded aglets and an SPCC applique on the front leg hem. These shorts have been finished off with a peaching technique to allow the shorts to be soft to the touch."
+    },
+    "ProductPhoto": {
+      "Name": "shorts-3",
+      "Extra": 4
+    },
+    "Price": 599.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Shorts",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Cove Swimmer Shorts",
+    "Description": {
+      "Colour": "Charcoal",
+      "Text": "Our COVE swimmer shorts are a pair of above the knee short with a three pocket detail. These shorts have been designed with a cut & sew technique to show case a tropical printed insert panel. Other features include a functional zip at back pocket, a regular rise, branded eyelets, branded aglets and an SPCC applique on the front leg hem. These shorts have been finished off with a peaching technique to allow the shorts to be soft to the touch."
+    },
+    "ProductPhoto": {
+      "Name": "shorts-4",
+      "Extra": 4
+    },
+    "Price": 599.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Shorts",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Scout Shorts",
+    "Description": {
+      "Colour": "Black",
+      "Text": "Our SCOUT chino shorts have been constructed with a high quality cotton for breathability and comfort. The SCOUT shorts are fitted with a five pocket detail and inner-leg gusset. They have been designed with incredible stretch, pleat detail, a regular rise and back jet pockets. These shorts have been finished off with our genuine leather back patch label, branded black rivets, hem turn-ups and a heavy enzyme wash for an lived-in look."
+    },
+    "ProductPhoto": {
+      "Name": "shorts-5",
+      "Extra": 4
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Shorts",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Gunbarrel Shorts",
+    "Description": {
+      "Colour": "Dark Indigo",
+      "Text": "Our GUNBARREL shorts have been constructed with a high quality 12 ounce denim. The GUNBARREL are a pair of fitted denims with five pocket detail. These shorts have been designed with a 2-way stretch, creasing detail, regular rise and cut and sew back patch pockets. The shorts have been finished off with our genuine leather back patch label, branded black rivets and a heavy double stone wash with a heavy acid wash for an authentic distressed look."
+    },
+    "ProductPhoto": {
+      "Name": "shorts-6",
+      "Extra": 4
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Shorts",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "Drill Chino Shorts",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "been customised with the following features: Double utility pockets, a cuffed hem and panelled back pockets. Finer details on the shorts include metal clip on fly front and antique metal rivets. The garment has been finished with a heavy enzyme wash for an genuine lived in look and hand feel."
+    },
+    "ProductPhoto": {
+      "Name": "shorts-7",
+      "Extra": 4
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Shorts",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "Trench Denim Shorts",
+    "Description": {
+      "Colour": "Blue",
+      "Text": "Featuring the TRENCH skinny shorts in blue. Constructed in a high quality 12 ounce denim fabric with hyper-flex technology. Cropped at just above the knee and accented with sandblasting and rip and repair detail. The finer details include a branded metal coin ingot on the pocket, genuine leather patch at the back waistband and an asymmetrical full button fly front. This garment has gone through a heavy double stone wash for an authentic vintage look and feel."
+    },
+    "ProductPhoto": {
+      "Name": "shorts-8",
+      "Extra": 3
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Shorts",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "9",
+    "Name": "Drill Chino Shorts",
+    "Description": {
+      "Colour": "Fatigue",
+      "Text": "Featuring the DRILL chino utility shorts, constructed from a quality high 100% Cotton Twill. Built to last, our chino shorts have been customised with the following features: Double utility pockets, a cuffed hem and panelled back pockets. Finer details include metal clip on fly front and antique metal rivets. The garment has been finished with a heavy enzyme wash for an genuine lived in look and hand feel."
+    },
+    "ProductPhoto": {
+      "Name": "shorts-9",
+      "Extra": 4
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Shorts",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "10",
+    "Name": "Trench Denim Shorts",
+    "Description": {
+      "Colour": "Black",
+      "Text": "Featuring the TRENCH skinny shorts. Constructed from a high quality 12 ounce 4 way stretch Denim with hyper-flex technology. These shorts are fitted with enough stretch to ensure comfort and freedom of movement and have been cropped just above the knee and accented with sandblasting and rip and repair detail. The finer details include a branded metal coin ingot on the pocket, genuine leather patch at the back waistband and an asymmetrical full button fly front. This garment has goes through a heavy double stone wash for an authentic vintage look and feel."
+    },
+    "ProductPhoto": {
+      "Name": "shorts-10",
+      "Extra": 4
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Shorts",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "11",
+    "Name": "Drill Chino Shorts",
+    "Description": {
+      "Colour": "Grey",
+      "Text": "Featuring the DRILL chino utility shorts, constructed from a quality high 100% Cotton Twill. Built to last, our chino shorts have been customised with the following features: Double utility pockets, a cuffed hem and panelled back pockets. Finer details include metal clip on fly front and antique metal rivets. The garment has been finished with a heavy enzyme wash for an genuine lived in look and hand feel."
+    },
+    "ProductPhoto": {
+      "Name": "shorts-11",
+      "Extra": 4
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Shorts",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  },
+  {
+    "Id": "12",
+    "Name": "Maverick Swimmer Shorts",
+    "Description": {
+      "Colour": "Blue",
+      "Text": "Featuring the MAVERICK Aqua print Swimmer Shorts with SPCC Applique badge at left wearing side. These light weight swimmers have been constructed from premium soft, thin quick-drying polyester, with a nylon mesh lining."
+    },
+    "ProductPhoto": {
+      "Name": "shorts-12",
+      "Extra": 4
+    },
+    "Price": 599.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Shorts",
+
+    "Sizes": [
+      {
+        "Value": "28",
+        "IsSelected": true
+      },
+      {
+        "Value": "30"
+      },
+      {
+        "Value": "32"
+      },
+      {
+        "Value": "34"
+      },
+      {
+        "Value": "36"
+      },
+      {
+        "Value": "38"
+      }
+    ]
+  }
+]

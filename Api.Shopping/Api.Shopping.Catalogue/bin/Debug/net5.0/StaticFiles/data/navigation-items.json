@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Home",
+    "Id": "home"
+  },
+  {
+    "Name": "Accessories",
+    "Id": "accessories"
+  },
+  {
+    "Name": "Denim",
+    "Id": "denim"
+  },
+  {
+    "Name": "Footwear",
+    "Id": "footwear"
+  },
+  {
+    "Name": "Jeans",
+    "Id": "jeans"
+  },
+  {
+    "Name": "Outerwear",
+    "Id": "outerwear"
+  },
+  {
+    "Name": "Pants",
+    "Id": "pants"
+  },
+  {
+    "Name": "Shirts",
+    "Id": "shirts"
+  },
+  {
+    "Name": "T-Shirts",
+    "Id": "tshirts"
+  },
+  {
+    "Name": "Shorts",
+    "Id": "shorts"
+  }
+]

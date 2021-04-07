@@ -1,0 +1,389 @@
+[
+  {
+    "Id": "1",
+    "Name": "Rocco Flat Peak Cap",
+    "Description": {
+      "Colour": "Fatigue",
+      "Text": "Our navy S.P.C.C logo flat peak cap is crafted from high quality Acrylic twill with a contrast white 3D S.P.C.C embroidery on the crown. The crown is cut from six panels for the perfect shape and has an adjustable PU back strap with metal clip to ensures a comfortable fit. Our Flat Peak cap is finished off with an SPCC metal clip label, an SPCC woven label, twill sweatband and the tonal embroidered eyelets ensure ventilation."
+    },
+    "ProductPhoto": {
+      "Name": "cap-1",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+    
+  },
+  {
+    "Id": "2",
+    "Name": "Rocco Flat Peak Cap",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "Our navy S.P.C.C logo flat peak cap is crafted from high quality Acrylic twill with a contrast white 3D S.P.C.C embroidery on the crown. The crown is cut from six panels for the perfect shape and has an adjustable PU back strap with metal clip to ensures a comfortable fit. Our Flat Peak cap is finished off with an SPCC metal clip label, an SPCC woven label, twill sweatband and the tonal embroidered eyelets ensure ventilation."
+    },
+    "ProductPhoto": {
+      "Name": "cap-2",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+    
+  },
+  {
+    "Id": "3",
+    "Name": "Hunter Baseball Cap",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Featuring the HUNTER distressed baseball cap with Sergeant Pepper embroidered logo. This baseball cap is cut to have a snug fit with a curved peak and the adjustable strap closure ensures a comfortable fit. We have crafted the cap from a high quality 100% cotton twill that has been treated with a heavy enzyme wash, rip and repair detailing and distressing for an authentic vintage look. There is a raised Sergeant embroidery on the front crown. Finer details include a matching sweatband and the tonal embroidered eyelets for ventilation."
+    },
+    "ProductPhoto": {
+      "Name": "cap-3",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+    
+  },
+  {
+    "Id": "4",
+    "Name": "Hunter Baseball Cap",
+    "Description": {
+      "Colour": "Burgundy",
+      "Text": "Featuring the HUNTER distressed baseball cap with Sergeant Pepper embroidered logo. This baseball cap is cut to have a snug fit with a curved peak and the adjustable strap closure ensures a comfortable fit. We have crafted the cap from a high quality 100% cotton twill that has been treated with a heavy enzyme wash, rip and repair detailing and distressing for an authentic vintage look. There is a raised Sergeant embroidery on the front crown. Finer details include a matching sweatband and the tonal embroidered eyelets for ventilation."
+    },
+    "ProductPhoto": {
+      "Name": "cap-4",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 3,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "5",
+    "Name": "Raider Beanie",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "Featuring the Raider knit beanie constructed from a soft acrylic yarn in a fine single jersey knit. The finer details include a printed canvas label that is sewn onto the turn up"
+    },
+    "ProductPhoto": {
+      "Name": "cap-5",
+      "Extra": 1
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "6",
+    "Name": "Raider Beanie",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Featuring the Raider knit beanie constructed from a soft acrylic yarn in a fine single jersey knit. The finer details include a printed canvas label that is sewn onto the turn up."
+    },
+    "ProductPhoto": {
+      "Name": "cap-6",
+      "Extra": 1
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "7",
+    "Name": "Sergeant Baseball Cap",
+    "Description": {
+      "Colour": "Blue",
+      "Text": "Featuring the SERGEANT heavy washed baseball cap with embroidered logo. Our baseball cap is constructed from a heavily washed 100% cotton twill with a minimalist logo embroidery on the front crown. Finer details include a small chevron logo on the back panel, matching sweatband, tonal embroidered eyelets and a black polysnap closure for a snug fit."
+    },
+    "ProductPhoto": {
+      "Name": "cap-7",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "8",
+    "Name": "Sergeant Baseball Cap",
+    "Description": {
+      "Colour": "Burgundy",
+      "Text": "Featuring the SERGEANT heavy washed baseball cap with embroidered logo. Our baseball cap is constructed from a heavily washed 100% cotton twill with a minimalist logo embroidery on the front crown. Finer details include a small chevron logo on the back panel, matching sweatband, tonal embroidered eyelets and a black polysnap closure for a snug fit."
+    },
+    "ProductPhoto": {
+      "Name": "cap-8",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "9",
+    "Name": "Sergeant Baseball Cap",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Featuring the SERGEANT heavy washed baseball cap with embroidered logo. Our baseball cap is constructed from a heavily washed 100% cotton twill with a minimalist logo embroidery on the front crown. Finer details include a small chevron logo on the back panel, matching sweatband, tonal embroidered eyelets and a black polysnap closure for a snug fit."
+    },
+    "ProductPhoto": {
+      "Name": "cap-9",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "10",
+    "Name": "Hunter Baseball Cap",
+    "Description": {
+      "Colour": "Washed Indigo",
+      "Text": "Featuring the SERGEANT heavy washed baseball cap with embroidered logo. Our baseball cap is constructed from a heavily washed 100% cotton twill with a minimalist logo embroidery on the front crown. Finer details include a small chevron logo on the back panel, matching sweatband, tonal embroidered eyelets and a black polysnap closure for a snug fit."
+    },
+    "ProductPhoto": {
+      "Name": "cap-10",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "11",
+    "Name": "Hunter Baseball Cap",
+    "Description": {
+      "Colour": "Washed Black",
+      "Text": "Featuring the SERGEANT heavy washed baseball cap with embroidered logo. Our baseball cap is constructed from a heavily washed 100% cotton twill with a minimalist logo embroidery on the front crown. Finer details include a small chevron logo on the back panel, matching sweatband, tonal embroidered eyelets and a black polysnap closure for a snug fit."
+    },
+    "ProductPhoto": {
+      "Name": "cap-11",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "12",
+    "Name": "Rocco Flat Peak Cap",
+    "Description": {
+      "Colour": "Military",
+      "Text": "We have collaborated with local Premium Cap brand on this limited edition S.P.C.C X UFlex Military Flat Peak. Our Military S.P.C.C logo flat peak cap is crafted from camo printed 100% cotton with a stone 3D S.P.C.C embroidery on the crown.The crown is cut from six panels for the perfect shape and the adjustable double indented poly snapback closure in olive. Our Flat Peak cap is finished off with the signature elasticated UFlex sweatband for a snug fit and the tonal embroidered eyelets ensure ventilation."
+    },
+    "ProductPhoto": {
+      "Name": "cap-12",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "13",
+    "Name": "Rocco Flat Peak Cap",
+    "Description": {
+      "Colour": "Black/White",
+      "Text": "Our Black S.P.C.C logo flat peak cap is crafted from high quality Acrylic twill with matching black 3D S.P.C.C embroidery on the crown.The crown is cut from six panels for the perfect shape and the adjustable poly snapback closure ensures a comfortable fit. Our Flat Peak cap is finished off with a twill sweatband and the tonal embroidered eyelets ensure ventilation."
+    },
+    "ProductPhoto": {
+      "Name": "cap-13",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "14",
+    "Name": "Rocco Flat Peak Cap",
+    "Description": {
+      "Colour": "Black/Black",
+      "Text": "Our Black S.P.C.C logo flat peak cap is crafted from high quality Acrylic twill with a contrasting white 3D S.P.C.C embroidery on the crown.The crown is cut from six panels for the perfect shape and the adjustable poly snapback closure ensures a comfortable fit. Our Flat Peak cap is finished off with a twill sweatband and the tonal embroidered eyelets ensure ventilation."
+    },
+    "ProductPhoto": {
+      "Name": "cap-14",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "15",
+    "Name": "Baseball Cap",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "Featuring the S.P.C.C BASEBALL styled cap. Features included a curved peak, \"SP\" embroidery and a adjustable strap."
+    },
+    "ProductPhoto": {
+      "Name": "cap-15",
+      "Extra": 4
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "16",
+    "Name": "Leather Belt",
+    "Description": {
+      "Colour": "Tan",
+      "Text": "The S.P.C.C full leather belts, have been hand crafted In South Africa from premium full grain leather. They feature an antique gunmetal silver metal buckle with minimal full logo and chevron icon branding. The belt width is 35mm which is a medium width belt, and suitable to fit in most Chino or Denim belt loops"
+    },
+    "ProductPhoto": {
+      "Name": "belt-16",
+      "Extra": 3
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "17",
+    "Name": "Roland Flat Peak Cap",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "Featuring the ROLAND flat peak Cap constructed from high quality 100% Cotton Twill. It features 6 Panels for comfortable fit, a black S.P.C.C Front Embroidery, air vents for circulation, Flat peak and adjustable strap with a antique silver size adjuster."
+    },
+    "ProductPhoto": {
+      "Name": "cap-17",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "18",
+    "Name": "Roland Flat Peak Cap",
+    "Description": {
+      "Colour": "Fatigue",
+      "Text": "Featuring the ROLAND flat peak Cap constructed from high quality 100% Cotton Twill. It features 6 Panels for comfortable fit, a black S.P.C.C Front Embroidery, air vents for circulation, Flat peak and adjustable strap with a antique silver size adjuster."
+    },
+    "ProductPhoto": {
+      "Name": "cap-18",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "19",
+    "Name": "Pine Slingbag",
+    "Description": {
+      "Colour": "Brown",
+      "Text": "Featuring the PINE sling bag handcrafted in 100% Genuine Leather. Features include S.P.C.C brass metal trims and YKK brass zips and rivets. Inner features include EVA rubber lining for strength and duribility and inner compartments for a Laptop plus hidden pockets for any valuables."
+    },
+    "ProductPhoto": {
+      "Name": "bag-19",
+      "Extra": 3
+    },
+    "Price": 1599.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "20",
+    "Name": "Baseball Cap",
+    "Description": {
+      "Colour": "Grey",
+      "Text": "Just Restocked! <br /> Featuring the S.P.C.C BASEBALL styled cap. Features included a curved peak, \"SP\" embroidery and a adjustable strap."
+    },
+    "ProductPhoto": {
+      "Name": "cap-20",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 319.96,
+    "Quantity": 0,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "21",
+    "Name": "Baseball Cap",
+    "Description": {
+      "Colour": "Fatigue",
+      "Text": "Just Restocked! <br /> Featuring the S.P.C.C BASEBALL styled cap. Features included a curved peak, \"SP\" embroidery and a adjustable strap."
+    },
+    "ProductPhoto": {
+      "Name": "cap-21",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "22",
+    "Name": "Baseball Cap",
+    "Description": {
+      "Colour": "Black",
+      "Text": "Just Restocked! <br /> Featuring the S.P.C.C BASEBALL styled cap. Features included a curved peak, \"SP\" embroidery and a adjustable strap."
+    },
+    "ProductPhoto": {
+      "Name": "cap-22",
+      "Extra": 3
+    },
+    "Price": 399.95,
+    "SalePrice": 319.96,
+    "Quantity": 0,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "23",
+    "Name": "Spoke Weekender Bag",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "The Spoke Weekender Bag has been hand crafted in South Africa. It has been constructed from 100% Nylon waterproof fabric and built up with genuine rubber for protection and support. Some of the finer details include full leather handle straps for extra comfort and durability, hidden internal zip pockets and branded S.P.C.C metal clips."
+    },
+    "ProductPhoto": {
+      "Name": "bag-23",
+      "Extra": 3
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Accessories"
+  },
+  {
+    "Id": "24",
+    "Name": "Finn Backpack",
+    "Description": {
+      "Colour": "Camo",
+      "Text": "Featuring the SERGEANT heavy washed baseball cap with embroidered logo. Our baseball cap is constructed from a heavily washed 100% cotton twill with a minimalist logo embroidery on the front crown. Finer details include a small chevron logo on the back panel, matching sweatband, tonal embroidered eyelets and a black polysnap closure for a snug fit."
+    },
+    "ProductPhoto": {
+      "Name": "bag-24",
+      "Extra": 3
+    },
+    "Price": 1399.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Accessories"
+  }
+]

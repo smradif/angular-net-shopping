@@ -1,0 +1,29 @@
+1- Add certificate per project:
+dotnet dev-certs https -ep $env:USERPROFILE\.aspnet\https\Api.Shopping.Payment.pfx -p pa55w0rd!
+
+2- Trust the certificates
+dotnet dev-certs https --trust
+
+3- For each project run the following after setting <UserSecretId></UserSecretId> in the project
+dotnet user-secrets set "Kestrel:Certificates:Development:Password" "pa55w0rd!"
+Those will be found in: C:\Users\smrad\AppData\Roaming\Microsoft\UserSecrets
+
+4- Creae docker-compose in the solution root
+
+5- Run the command: docker-compose up --build
+
+
+Setup Docker
+https://josiahmortenson.dev/blog/2020-06-08-aspnetcore-docker-https
+
+Build Docker:
+docker-compose up --build
+ 
+docker-compose down
+
+
+Generate envoy certificate
+Open Ubunto
+Type: explorer.exe .
+Type: openssl req -config https.cong -new -out csr.pem
+This will generate the private key

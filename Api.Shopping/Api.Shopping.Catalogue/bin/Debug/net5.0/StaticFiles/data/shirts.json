@@ -1,0 +1,374 @@
+[
+  {
+    "Id": "1",
+    "Name": "Fox Shirt",
+    "Description": {
+      "Colour": "Black",
+      "Text": "Featuring the FOX fitted long sleeved collared shirt with a sophisticated workwear look and feel. Constructed from high quality twill, this camo printed shirt include classic flap chest pockets with twill tape detail, branded buttons, a concealed button stand and antique silver side zips. The garment is put through a softening silicone wash to ensure this shirt is smooth to the touch."
+    },
+    "ProductPhoto": {
+      "Name": "shirts-1",
+      "Extra": 4
+    },
+    "Price": 799.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Shirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Precision Shirt",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "Featuring the PRECISION regular fit long sleeved collared shirt with a luxuriously soft handle and drape. This shirt is constructed from high quality 100% Tencel fabric. The finer details include classic flap chest pockets, branded buttons and a woven tonal hem label. The garment is finished off with a silicone wash to ensure this shirt is soft to the touch."
+    },
+    "ProductPhoto": {
+      "Name": "shirts-2",
+      "Extra": 4
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Shirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Cannon Shirt",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "The CANNON regular fit long sleeved collared shirt is constructed from high quality cotton fabric. This chambray shirt features a tonal left chest embroidery, branded buttons and a contrast woven hem label. The garment is put through a softening silicone wash to ensure this shirt is soft to the touch. This shirt is ideal for cool summer evenings."
+    },
+    "ProductPhoto": {
+      "Name": "shirts-3",
+      "Extra": 4
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Shirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Fox Denim Shirt",
+    "Description": {
+      "Colour": "Bleach",
+      "Text": "Featuring the FOX fitted long sleeved collared shirt with a sophisticated workwear look and feel. Constructed from high quality twill, the finer details include classic flap chest pockets with twill tape detail, branded buttons, a concealed button stand, antique silver side zips and a constrast woven hem label. The garment is put through a softening silicone wash to ensure this shirt is smooth to the touch."
+    },
+    "ProductPhoto": {
+      "Name": "shirts-4",
+      "Extra": 4
+    },
+    "Price": 799.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Shirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Chain Shirt",
+    "Description": {
+      "Colour": "Burgandy",
+      "Text": "The CHAIN long sleeved regular fit shirt is designed with a red and navy check pattern. The check shirt has a concealed left chest welt pocket with easy access and finished off with an SP clip label and branded buttons. Branded buttons finish off the collar tips, button stand and cuffs. A dirty wash effect helps to finish off this check shirt, as well as a woven hem label."
+    },
+    "ProductPhoto": {
+      "Name": "shirts-5",
+      "Extra": 3
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Shirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "Fox Shirt",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Featuring the FOX fitted long sleeved collared shirt with a sophisticated workwear look and feel. Constructed from high quality twill, the finer details include classic flap chest pockets with twill tape detail, branded buttons, a concealed button stand, antique silver side zips and a constrast woven hem label. The garment is put through a softening silicone wash to ensure this shirt is smooth to the touch."
+    },
+    "ProductPhoto": {
+      "Name": "shirts-6",
+      "Extra": 6
+    },
+    "Price": 799.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Shirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "Precision Shirt",
+    "Description": {
+      "Colour": "Olive",
+      "Text": "Featuring the PRECISION regular fit long sleeved collared shirt with a luxuriously soft handle and drape. This shirt is constructed from high quality 100% Tencel fabric. The finer details include classic flap chest pockets, branded buttons and a woven tonal hem label. The garment is finished off with a silicone wash to ensure this shirt is soft to the touch."
+    },
+    "ProductPhoto": {
+      "Name": "shirts-7",
+      "Extra": 5
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 100,
+    "ProductType": "Shirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "Bravo Shirt",
+    "Description": {
+      "Colour": "Indigo",
+      "Text": "Featuring the BRAVO lightweight stretch poplin long sleeve shirt. Crafted 100% premium cotton yarn in a classic silhouette, this is a must have basic that serves as a good hybrid between work and play. The shirt features button up front, a narrow collar, left chest chevron and S.P.C.C bottom placket embroidery. This shirt has been finished with a silicone and heavy enzyme wash for extra softness and comfort."
+    },
+    "ProductPhoto": {
+      "Name": "shirts-8",
+      "Extra": 3
+    },
+    "Price": 799.95,
+    "SalePrice": 639.96,
+    "Quantity": 0,
+    "ProductType": "Shirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "9",
+    "Name": "Quebec Shirt",
+    "Description": {
+      "Colour": "Navy",
+      "Text": "Featuring the QUEBEC short sleeve denim shirt. This shirt is crafted from lightweight denim and constructed in a regular fit. Shirt features a button up front, left chest pockets with S.P.C.C winder and a pointed back collar. The garment has been carefully treated with a heavy enzyme wash for a genuine vintage look. Quebec has been finished with a silicone wash for extra softness and comfort."
+    },
+    "ProductPhoto": {
+      "Name": "shirts-9",
+      "Extra": 3
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Shirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "10",
+    "Name": "Case Denim Shirt",
+    "Description": {
+      "Colour": "Black",
+      "Text": "Featuring the CASE denim shirt crafted from lightweight denim and constructed in a regular fit. Shirt features long sleeves, button up front, raw edged hem and front chest pockets. The garment has been carefully treated with a vintage bleach wash. Finer details include branded matte black press studs and S.P.C.C bottom placket embroidery. This shirt has been finished with a silicone and heavy enzyme wash for extra softness and comfort."
+    },
+    "ProductPhoto": {
+      "Name": "shirts-10",
+      "Extra": 4
+    },
+    "Price": 899.95,
+    "SalePrice": 719.96,
+    "Quantity": 0,
+    "ProductType": "Shirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "11",
+    "Name": "Yankee Shirt",
+    "Description": {
+      "Colour": "Blue",
+      "Text": "Featuring the YANKEE lightweight stretch poplin long sleeve shirt. Crafted 100% premium yarn dyed cotton in a tartan weave. This shirt emboses a classic silhouette. Shirt features button up front, a narrow collar, left chest chevron, S.P.C.C bottom placket embroidery and SP clip on left chest pocket. The Yankee shirt has been finished with a silicone and heavy enzyme wash for extra softness and comfort."
+    },
+    "ProductPhoto": {
+      "Name": "shirts-11",
+      "Extra": 3
+    },
+    "Price": 799.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Shirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  },
+  {
+    "Id": "12",
+    "Name": "Quebec Denim Shirt",
+    "Description": {
+      "Colour": "Black",
+      "Text": "Featuring the QUEBEC short sleeve denim shirt crafted from lightweight denim. This denim shirt has been constructed in a regular fit and features a button up front, left chest pocket with S.P.C.C winder and a pointed back collar. It has been carefully treated with a heavy enzyme wash for a genuine vintage look. Quebec denim shirt has been finished with a silicone wash for extra softness and comfort."
+    },
+    "ProductPhoto": {
+      "Name": "shirts-12",
+      "Extra": 3
+    },
+    "Price": 699.95,
+    "SalePrice": 0,
+    "Quantity": 0,
+    "ProductType": "Shirts",
+    "Sizes": [
+      {
+        "Value": "Small",
+        "IsSelected": true
+      },
+      {
+        "Value": "Medium"
+      },
+      {
+        "Value": "Large"
+      },
+      {
+        "Value": "X-Large"
+      }
+    ]
+  }
+]

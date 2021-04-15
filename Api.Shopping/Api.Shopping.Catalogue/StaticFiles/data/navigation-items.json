@@ -1,7 +1,8 @@
 [
   {
     "Name": "Home",
-    "Id": "home"
+    "Id": "featured",
+    "pageTitle": "Featured collection"
   },
   {
     "Name": "Accessories",

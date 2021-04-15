@@ -1,0 +1,9 @@
+{  
+    "Translations": "الترجمه",
+    "Select a language": "اختر لغه",
+    "How to translate your application": "كيفية ترجمة طلبك",  
+    "The JSON translation file": "ملف ترجمة JSON",  
+    "Each language is stored in a separate .json file and saved in: assets/i18n/fr.json": "يتم تخزين كل لغة في ملف يحفظ في asset/i18n/en.json ",  
+    "Switching languages at runtime": "تبديل اللغات في وقت التشغيل",  
+    "To switch language you will first have to add a new JSON file for that language": "لتبديل اللغة ، يجب عليك أولاً إضافة ملف JSON جديد لتلك اللغة. يتيح إنشاء ترجمة ألمانية للعرض التوضيحي: asset / i18n / de.json"  
+}  

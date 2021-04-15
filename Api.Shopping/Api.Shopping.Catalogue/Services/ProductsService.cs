@@ -1,5 +1,6 @@
 ﻿using Api.Shopping.Catalogue.Interfaces;
 using Api.Shopping.Catalogue.Models;
+using Shopping.Interfaces.Repositories;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -7,14 +8,21 @@ namespace Shopping.Services
 {
     public class ProductsService: IProductsService
     {
-        public Task<IEnumerable<Product>> GetProducts()
+        private IProductsRepository repo;
+
+        public ProductsService(IProductsRepository repo)
         {
-            throw new System.NotImplementedException();
+            this.repo = repo;
         }
 
-        public Task<Product> GetProduct(string id)
+        public async Task<IEnumerable<Product>> GetProducts(string productKey)
         {
-            throw new System.NotImplementedException();
+            return await repo.GetProducts(productKey);
+    }
+
+        public async Task<Product> GetProduct(string productKey, string productId)
+        {
+            return await repo.GetProduct(productKey, productId);
         }
     }
 }

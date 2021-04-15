@@ -41,6 +41,16 @@ static_resources:
                   prefix_rewrite: "/navigation"
                   cluster: catalogue_service
               - match:
+                  prefix: "/prods"
+                route:
+                  prefix_rewrite: "/products"
+                  cluster: catalogue_service
+              - match:
+                  prefix: "/prod"
+                route:
+                  prefix_rewrite: "/products"
+                  cluster: catalogue_service
+              - match:
                   prefix: "/auth"
                 route:
                   prefix_rewrite: "/"

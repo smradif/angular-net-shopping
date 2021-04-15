@@ -1,4 +1,4 @@
-using Api.Shopping.Authentication.Extensions;
+using Api.Shopping.Common.Extensions;
 using Api.Shopping.Catalogue.Extensions;
 using Api.Shopping.Catalogue.Models;
 using Api.Shopping.Common.Models;

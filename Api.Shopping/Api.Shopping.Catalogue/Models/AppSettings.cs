@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-
+﻿
 namespace Api.Shopping.Catalogue.Models
 {
     public class AppSettings
@@ -11,5 +10,6 @@ namespace Api.Shopping.Catalogue.Models
         public string SwaggerName { get; set; }
         public string SwaggerVersion { get; set; }
         public string StaticFilesLocation { get; set; }
+        public string ProductsImagesLocation { get; set; }
     }
 }

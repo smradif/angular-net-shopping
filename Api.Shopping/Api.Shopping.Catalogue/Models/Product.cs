@@ -45,6 +45,7 @@ namespace Api.Shopping.Catalogue.Models
         Pants,
         Shirts,
         TShirts,
-        Shorts
+        Shorts,
+        Featured
     }
 }

@@ -6,8 +6,8 @@ namespace Api.Shopping.Catalogue.Interfaces
 {
     public interface IProductsService
     {
-        Task<IEnumerable<Product>> GetProducts();
+        Task<IEnumerable<Product>> GetProducts(string productKey);
 
-        Task<Product> GetProduct(string id);
+        Task<Product> GetProduct(string productKey, string productId);
     }
 }

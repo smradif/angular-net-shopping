@@ -1,0 +1,5 @@
+<div class="container" *mobxAutorun>
+  <div *ngFor="let product of store.products">
+    <app-product-item [product]="product"></app-product-item>
+  </div>
+</div>

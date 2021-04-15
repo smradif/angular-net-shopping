@@ -1,0 +1,5 @@
+<div class="navbar navbar-fixed-top" >
+  <ul *mobxAutorun>
+    <li *ngFor="let ni of store.navigationItems" (click)="navigate(ni.id)">{{ni.name}}</li>
+  </ul>
+</div>

@@ -9,3 +9,4 @@ D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\obj\Debug\n
 D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\obj\Debug\net5.0\Api.Shopping.Common.dll
 D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\obj\Debug\net5.0\ref\Api.Shopping.Common.dll
 D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\obj\Debug\net5.0\Api.Shopping.Common.pdb
+D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Common\obj\Debug\net5.0\Api.Shopping.Common.csprojAssemblyReference.cache

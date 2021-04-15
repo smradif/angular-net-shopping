@@ -1,0 +1,9 @@
+@import "../../../../sass/colours.scss";
+
+.title {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+  font-size: 2rem;
+  color: $primary-colour;
+}

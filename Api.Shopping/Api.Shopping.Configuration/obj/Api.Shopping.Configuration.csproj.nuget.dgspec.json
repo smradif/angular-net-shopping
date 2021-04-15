@@ -1,0 +1,161 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\dev\\smradif\\angular-net-shopping\\Api.Shopping\\Api.Shopping.Configuration\\Api.Shopping.Configuration.csproj": {}
+  },
+  "projects": {
+    "D:\\dev\\smradif\\angular-net-shopping\\Api.Shopping\\Api.Shopping.Common\\Api.Shopping.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev\\smradif\\angular-net-shopping\\Api.Shopping\\Api.Shopping.Common\\Api.Shopping.Common.csproj",
+        "projectName": "Api.Shopping.Common",
+        "projectPath": "D:\\dev\\smradif\\angular-net-shopping\\Api.Shopping\\Api.Shopping.Common\\Api.Shopping.Common.csproj",
+        "packagesPath": "C:\\Users\\smrad\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\smradif\\angular-net-shopping\\Api.Shopping\\Api.Shopping.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\smrad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev\\smradif\\angular-net-shopping\\Api.Shopping\\Api.Shopping.Configuration\\Api.Shopping.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev\\smradif\\angular-net-shopping\\Api.Shopping\\Api.Shopping.Configuration\\Api.Shopping.Configuration.csproj",
+        "projectName": "Api.Shopping.Configuration",
+        "projectPath": "D:\\dev\\smradif\\angular-net-shopping\\Api.Shopping\\Api.Shopping.Configuration\\Api.Shopping.Configuration.csproj",
+        "packagesPath": "C:\\Users\\smrad\\.nuget\\packages\\",
+        "outputPath": "D:\\dev\\smradif\\angular-net-shopping\\Api.Shopping\\Api.Shopping.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\smrad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\dev\\smradif\\angular-net-shopping\\Api.Shopping\\Api.Shopping.Common\\Api.Shopping.Common.csproj": {
+                "projectPath": "D:\\dev\\smradif\\angular-net-shopping\\Api.Shopping\\Api.Shopping.Common\\Api.Shopping.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

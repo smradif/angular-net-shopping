@@ -14,8 +14,8 @@ namespace Api.Shopping.Catalogue.Repositories.Json
     {
         protected string key;
         private IDictionary<string, IEnumerable<TEntity>> database = new Dictionary<string, IEnumerable<TEntity>>();
-        
-        
+
+
         public async Task<IEnumerable<TEntity>> GetAsync(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null)
         {
             return await Task.Run(() => GetData());
@@ -26,8 +26,7 @@ namespace Api.Shopping.Catalogue.Repositories.Json
             return await Task.Run(() =>
             {
                 var data = GetJson<IEnumerable<TEntity>>();
-                data.First(d => d.Id == id);
-                return GetJson<TEntity>();
+                return data.First(d => d.Id == id);
             });
         }
 
@@ -76,7 +75,8 @@ namespace Api.Shopping.Catalogue.Repositories.Json
             if (database.ContainsKey(key))
             {
                 database[key] = data;
-            } else
+            }
+            else
             {
                 database.Add(key, data);
             }

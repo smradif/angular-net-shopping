@@ -1,0 +1,9 @@
+{  
+    "Translations": "Translations",
+    "Select a language": "Select a language",
+    "How to translate your application": "How to translate your application",  
+    "The JSON translation file": "The JSON translation file",  
+    "Each language is stored in a separate .json file and saved in: assets/i18n/fr.json": "Each language is stored in a separate .json file and saved in: assets/i18n/fr.json",  
+    "Switching languages at runtime": "Switching languages at runtime",  
+    "To switch language you will first have to add a new JSON file for that language": "To switch language you will first have to add a new JSON file for that language"  
+}  

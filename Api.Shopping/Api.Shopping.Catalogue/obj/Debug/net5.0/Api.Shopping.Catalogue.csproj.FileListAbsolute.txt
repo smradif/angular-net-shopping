@@ -39,7 +39,6 @@ D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Catalogue\obj\Debu
 D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Catalogue\bin\Debug\net5.0\StaticFiles\data\accessories.json
 D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Catalogue\bin\Debug\net5.0\StaticFiles\data\denim.json
 D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Catalogue\bin\Debug\net5.0\StaticFiles\data\footwear.json
-D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Catalogue\bin\Debug\net5.0\StaticFiles\data\home.json
 D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Catalogue\bin\Debug\net5.0\StaticFiles\data\jeans.json
 D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Catalogue\bin\Debug\net5.0\StaticFiles\data\navigation-items.json
 D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Catalogue\bin\Debug\net5.0\StaticFiles\data\outerwear.json
@@ -48,3 +47,4 @@ D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Catalogue\bin\Debu
 D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Catalogue\bin\Debug\net5.0\StaticFiles\data\shorts.json
 D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Catalogue\bin\Debug\net5.0\StaticFiles\data\tshirts.json
 D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Catalogue\bin\Debug\net5.0\StaticFiles\data\users.json
+D:\dev\smradif\angular-net-shopping\Api.Shopping\Api.Shopping.Catalogue\bin\Debug\net5.0\StaticFiles\data\featured.json

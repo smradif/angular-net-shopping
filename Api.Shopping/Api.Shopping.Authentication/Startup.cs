@@ -1,5 +1,6 @@
 using Api.Shopping.Authentication.Extensions;
 using Api.Shopping.Authentication.Models;
+using Api.Shopping.Common.Extensions;
 using Api.Shopping.Common.Models;
 using Autofac;
 using Microsoft.AspNetCore.Builder;

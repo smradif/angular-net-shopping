@@ -1,0 +1,27 @@
+<div class="container">
+  <div *ngIf="hasLoaded" class="content-container">
+    <div class="page-title">
+      <app-page-title></app-page-title>
+    </div>
+    <div class="page-content">
+      <header>
+        <app-header></app-header>
+      </header>
+      <main>
+        <div class="menu">
+          <app-navigation></app-navigation>
+        </div>
+        <div class="router">
+          <div class="title">{{store.pageTitle}}</div>
+          <router-outlet></router-outlet>
+        </div>
+      </main>
+      <footer class="footer">
+        <app-footer></app-footer>
+      </footer>
+    </div>
+  </div>
+  <div *ngIf="hasError" class="error-container">
+    <app-error></app-error>
+  </div>
+</div>

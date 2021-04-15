@@ -1,0 +1,21 @@
+@import "../../../../sass/colours.scss";
+
+.navbar {
+  & > ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    & > li {
+      list-style: none;
+      padding: 15px 0;
+      border-top: 1px solid rgb(201, 197, 197);
+      font-size: 1.0rem;
+      cursor: pointer;
+      &:hover {
+        background-color: $primary-colour-light;
+        color: white;
+        padding-left: 2px;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<div class="error-container">
+  <div class="error-box" [ngClass]="{'generic-error': isGenericError, 'fail-error': !isGenericError}">
+    <div class="header">
+      <i class="fas" [ngClass]="{'fa-exclamation-triangle': isGenericError, 'fa-exclamation-circle': !isGenericError}"></i> {{header}} </div>
+    <div class="content">
+      {{content}}
+    </div>
+  </div>
+</div>

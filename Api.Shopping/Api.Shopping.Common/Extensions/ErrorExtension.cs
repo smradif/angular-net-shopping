@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 using System;
 using System.Net;
 
-namespace Api.Shopping.Authentication.Extensions
+namespace Api.Shopping.Common.Extensions
 {
     public static class ErrorExtension
     {

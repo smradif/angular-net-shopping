@@ -47,16 +47,15 @@ services:
             context: .
             dockerfile: Api.Shopping.Catalogue/Dockerfile
           ports:
-            - "10080:80"
-            - "10081:443"
+            - "8084:80"
+            - "8085:443"
           environment:
             - ASPNETCORE_URLS=https://+:443;http://+:80
-            - ASPNETCORE_HTTPS_PORT=10081
+            - ASPNETCORE_HTTPS_PORT=8085
             - ASPNETCORE_ENVIRONMENT=Development
             - ASPNETCORE_Kestrel__Certificates__Default__Password=pa55w0rd!
             - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/Api.Shopping.Catalogue.pfx
           volumes:
             - ~/.aspnet/https:/https:ro
-            - /wwwroot/
 
 

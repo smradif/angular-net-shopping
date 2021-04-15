@@ -1,0 +1,78 @@
+// Thanks to Kevin Powell https://www.youtube.com/watch?v=DonxmmWW7Tk
+@import "../../../../sass/colours.scss";
+.content {
+  padding: 15px 0;
+  border-bottom: 1px solid $border-light-colour;
+  width: 70vw;
+  position: relative;
+
+  .search-bar {
+    --size: 50px;
+    border: 2px solid $primary-colour;
+    display: flex;
+    border-radius: 50px;
+    height: var(--size);
+    width: var(--size);
+    padding: 3px;
+    position: relative;
+    transition: width 300ms cubic-bezier(0.18, 0.89, 0.32, 1.05);
+    overflow: hidden;
+
+    &__input {
+      flex-grow: 1;
+      border: 0;
+      font-size: 1.5rem;
+      padding: 0 1.2em;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      line-height: calc(var(--size) - 3px);
+      opacity: 0;
+      cursor: pointer;
+
+      &:focus {
+        outline: 0;
+      }
+    }
+
+    &__submit {
+      font-size: 1.5rem;
+      border: 0;
+      border-radius: 50%;
+      cursor: pointer;
+      height: calc(var(--size) - 10px);
+      width: calc(var(--size) - 10px);
+      background: transparent;
+      margin-left: auto;
+      transition: background 150ms ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &:focus-within {
+      width: 100%;
+
+      .search-bar__input {
+        opacity: 1;
+        cursor: initial;
+        width: calc(100% - var(--size));
+      }
+      .search-bar__submit {
+        background-color: $primary-colour;
+        color: white;
+
+        &:focus,
+        &:hover {
+          outline: 0;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+        }
+      }
+    }
+
+    .material-icons {
+      font-size: 26px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@import '../../../../sass/colours.scss';
+
+footer {
+  border-top: 1px solid $border-light-colour;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}

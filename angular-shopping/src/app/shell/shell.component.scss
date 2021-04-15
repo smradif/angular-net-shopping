@@ -1,0 +1,75 @@
+@import '../../sass/colours.scss';
+
+$page-padding: 10px;
+$min-height: 40px;
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.error-container,
+.content-container {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.page-title {
+  height: 80px;
+  padding-left: $page-padding * 2;
+  border-bottom: 5px solid $border-colour;
+  display: flex;
+  align-items: center;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+  flex: 1;
+  overflow-y: auto;
+
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex: 1;
+}
+
+.menu {
+  width: 20%;
+  min-width: 250px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.router {
+  width: 100%;
+  flex: 1;
+}
+
+footer {
+  padding: $page-padding;
+}
+
+@media only screen and (max-width: 750px) {
+  main {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+}

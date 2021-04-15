@@ -1,6 +1,7 @@
 ﻿using Api.Shopping.Common.Models;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
+using System.Text.Json;
 
 namespace Api.Shopping.Common.Extensions
 {
@@ -32,6 +33,8 @@ namespace Api.Shopping.Common.Extensions
             services.AddControllers().AddJsonOptions(options =>
             {
                 options.JsonSerializerOptions.IgnoreNullValues = true;
+                options.JsonSerializerOptions.DictionaryKeyPolicy = JsonNamingPolicy.CamelCase;
+                options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
             });
         }
 

@@ -7,6 +7,7 @@ import { ShellRoutingModule } from "../shell-routing.module";
 import { MobxAngularModule } from 'mobx-angular';
 import { FormsModule } from "@angular/forms";
 import { RouterModule } from "@angular/router";
+import { AppCommonModule } from "src/app/common/app-common.module";
 
 export const imports = [
   BrowserModule,
@@ -17,5 +18,6 @@ export const imports = [
   HomeModule,
   MobxAngularModule,
   FormsModule,
-  RouterModule
+  RouterModule,
+  AppCommonModule
 ];

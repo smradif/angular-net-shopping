@@ -24,6 +24,7 @@
     "@ngx-translate/core": "^13.0.0",
     "@ngx-translate/http-loader": "^6.0.0",
     "faker": "^5.2.0",
+    "font-awesome": "^4.7.0",
     "mobx": "^6.2.0",
     "mobx-angular": "^4.3.0",
     "rxjs": "~6.6.0",

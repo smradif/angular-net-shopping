@@ -1,6 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .page-title {
   font-size: 1.5rem;
   font-weight: 440;
+}
+
+.shopping-cart {
+  cursor: pointer;
+}
+
+.fa-shopping-cart {
+  font-size: 18px;
 }
 
 

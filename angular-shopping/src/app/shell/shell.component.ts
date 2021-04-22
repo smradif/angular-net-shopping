@@ -1,10 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
-import { ActivatedRoute } from '@angular/router';
 import { BaseComponent } from '../components/base.component';
 import { AppState } from '../models';
 import { StateService } from '../services';
-import { MenuStore } from '../store/menu.store';
 
 @Component({
   selector: 'app-root',
@@ -17,12 +14,8 @@ export class ShellComponent extends BaseComponent implements OnInit, OnDestroy {
   public hasError: boolean = false;
   public title: string = '';
 
-  constructor(
-    private stateService: StateService,
-    public store: MenuStore,
-    private titleService: Title) {
+  constructor(private stateService: StateService) {
       super();
-
   }
 
   private setState(state: AppState) {
@@ -52,3 +45,5 @@ export class ShellComponent extends BaseComponent implements OnInit, OnDestroy {
     });
   }
 }
+
+

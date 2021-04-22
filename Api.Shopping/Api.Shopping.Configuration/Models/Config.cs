@@ -8,5 +8,6 @@ namespace Api.Shopping.Configuration.Models
         public string Copyright { get; set; }
         public string SiteName { get; set; }
         public string DefaultCurrency { get; set; }
+        public IEnumerable<SocialItem> SocialItems { get; set; }
     }
 }

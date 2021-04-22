@@ -8,6 +8,8 @@ import { ThemeManagerComponent } from "../../components/theme/theme-manager.comp
 import { ShellComponent } from "../shell.component";
 import { PageTitleComponent } from "../components/page-title/page-title.component";
 import { SearchComponent } from "src/app/shell/components/search/search-component";
+import { BreadcrumbComponent } from "src/app/components/breadcrumb/breadcrumb.component";
+import { SocialComponent } from "src/app/components/social/social.component";
 
 export const declarations = [
   ShellComponent,
@@ -19,5 +21,6 @@ export const declarations = [
   FooterComponent,
   NavigationComponent,
   PageTitleComponent,
-  SearchComponent
+  SearchComponent,
+  BreadcrumbComponent
 ];

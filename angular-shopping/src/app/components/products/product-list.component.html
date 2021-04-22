@@ -1,5 +1,10 @@
-<div class="container" *mobxAutorun>
-  <div *ngFor="let product of store.products">
-    <app-product-item [product]="product"></app-product-item>
+<div *mobxAutorun>
+  <div class="title">{{menuStore.pageTitle}}</div>
+  <div class="container">
+    <div *ngFor="let product of store.products">
+      <a [routerLink]="['/', 'products', productKey, product.name + ' - ' + product.description?.colour]">
+        <app-product-item [product]="product"></app-product-item>
+      </a>
+    </div>
   </div>
 </div>

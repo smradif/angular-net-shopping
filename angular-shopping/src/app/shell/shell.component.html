@@ -1,5 +1,5 @@
 <div class="container">
-  <div *ngIf="hasLoaded" class="content-container">
+  <div *ngIf="hasLoaded && !hasError" class="content-container">
     <div class="page-title">
       <app-page-title></app-page-title>
     </div>
@@ -10,9 +10,10 @@
       <main>
         <div class="menu">
           <app-navigation></app-navigation>
+          <app-social [size]="1.8"></app-social>
         </div>
         <div class="router">
-          <div class="title">{{store.pageTitle}}</div>
+          <app-breadcrumb></app-breadcrumb>
           <router-outlet></router-outlet>
         </div>
       </main>

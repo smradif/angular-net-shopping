@@ -21,10 +21,14 @@ $min-height: 40px;
 
 .page-title {
   height: 80px;
-  padding-left: $page-padding * 2;
+  padding: 0 $page-padding * 2;
   border-bottom: 5px solid $border-colour;
   display: flex;
   align-items: center;
+
+  & app-page-title{
+    width: 100%;
+  }
 }
 
 .page-content {
@@ -46,11 +50,6 @@ main {
   width: 20%;
   min-width: 250px;
   margin-right: 20px;
-}
-
-.title {
-  font-size: 1.2rem;
-  margin-bottom: 25px;
 }
 
 .router {

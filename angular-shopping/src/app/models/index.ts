@@ -7,3 +7,6 @@ export * from './iuser';
 export * from './iapp-error';
 export * from './itoken.dto';
 export * from './iproduct';
+export * from './breadcrumb';
+export * from './basket';
+export * from './socialItem';

@@ -11,11 +11,16 @@
       border-top: 1px solid rgb(201, 197, 197);
       font-size: 1.0rem;
       cursor: pointer;
+      padding-left: 5px;
       &:hover {
         background-color: $primary-colour-light;
         color: white;
-        padding-left: 2px;
+
       }
     }
+  }
+
+  .item {
+    border-bottom: 1px solid rgb(201, 197, 197);
   }
 }

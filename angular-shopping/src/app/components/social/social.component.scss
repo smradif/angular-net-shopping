@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  margin-top: 20px;
+
+  & i {
+    margin: 0 5px;
+  }
+}
+

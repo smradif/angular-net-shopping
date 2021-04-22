@@ -6,6 +6,8 @@ import { NetworkService, StateService, ConfigService, AppPreloadingStrategy, Api
 import { MenuStore } from "src/app/store/menu.store";
 import { ProductsStore } from "src/app/store/products.store";
 import { ProductStore } from "src/app/store/product.store";
+import { BreadcrumbStore } from "src/app/store/breadcrumb.store";
+import { BasketStore } from "src/app/store/basket.store";
 
 export function init(stateService: StateService, configService: ConfigService) {
   const promise = new Promise((resolve) => {
@@ -34,6 +36,8 @@ export const providers = [
   MenuStore,
   ProductsStore,
   ProductStore,
+  BreadcrumbStore,
+  BasketStore,
   Title,
   {
     provide: APP_INITIALIZER,

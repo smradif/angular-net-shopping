@@ -1,8 +1,8 @@
 import { Component, OnDestroy, Input, OnChanges, SimpleChanges, ChangeDetectionStrategy } from '@angular/core';
 import { Product } from 'src/app/models';
+import { MenuStore } from 'src/app/store/menu.store';
 import { ProductsStore } from 'src/app/store/products.store';
 import { BaseComponent } from '../base.component';
-import { ProductsService } from './products.service';
 
 @Component({
   selector: 'app-product-list',
@@ -17,8 +17,8 @@ export class ProductListComponent extends BaseComponent implements OnChanges, On
   public products: Product[] = [];
 
   constructor(
-    private productsService: ProductsService,
-    public store: ProductsStore) {
+    public store: ProductsStore,
+    public menuStore: MenuStore) {
     super();
   }
 
@@ -26,13 +26,6 @@ export class ProductListComponent extends BaseComponent implements OnChanges, On
     const { previousValue, currentValue } = changes.productKey;
     if (previousValue !== currentValue) {
       this.productKey = currentValue;
-      if (this.productKey) {
-        this.getProducts();
-      }
     }
-  }
-
-  private getProducts() {
-    this.productsService.getProducts(this.productKey);
   }
 }

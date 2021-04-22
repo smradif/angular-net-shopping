@@ -13,13 +13,24 @@ export const routes: ShoppingRoute[] = [
     path: '',
     component: HomeComponent,
     canActivate: [AuthGuardService],
-    data: { title: 'Featured collection', tooltip: 'Featured collection' }
   },
   {
     path: 'products/:key',
     loadChildren: () => import('../pages/products/products.module').then(m => m.ProductsModule),
     canActivate: [AuthGuardService],
-    data: { title: 'Products', preload: true, tooltip: 'Products page' }
+    data: { preload: true }
+  },
+  {
+    path: 'products/:key/:id',
+    loadChildren: () => import('../pages/product/product.module').then(m => m.ProductModule),
+    canActivate: [AuthGuardService],
+    data: { preload: true }
+  },
+  {
+    path: 'basket',
+    loadChildren: () => import('../pages/basket/basket.module').then(m => m.BasketModule),
+    canActivate: [AuthGuardService],
+    data: { preload: true }
   },
   {
     path: 'not-found',

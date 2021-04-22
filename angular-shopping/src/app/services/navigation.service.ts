@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { NavigationItem } from '../models/inavigation-item';
 import { MenuStore } from '../store/menu.store';
-import { ProductsStore } from '../store/products.store';
 import { ConfigService } from './config.service';
 import { NetworkService } from './network.service';
 
@@ -12,7 +11,6 @@ export class NavigationService {
     private configService: ConfigService,
     private networkService: NetworkService,
     private menuStore: MenuStore,
-    private productsStore: ProductsStore,
     private titleService: Title) {
   }
 
@@ -25,7 +23,6 @@ export class NavigationService {
   }
 
   public setMenu(id: string){
-    this.productsStore.setProducts([]);
     this.menuStore.setMenu(id);
     this.titleService.setTitle(this.menuStore.pageTitle);
   }

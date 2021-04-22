@@ -12,9 +12,6 @@
   text-align: center;
 }
 
-.price {
-}
-
 .price-on-sale {
   text-decoration: line-through;
 }
@@ -24,6 +21,8 @@
 }
 
 .product-image {
+  margin: 1.2rem 0;
+
   & > img {
     width: 100%;
     max-width: 600px;

@@ -1,0 +1,7 @@
+<div *mobxAutorun class="container">
+  <div *ngFor="let item of store.breadcrumbItems">
+    <span *ngIf="!item.url" class="text">{{item.text}}</span>
+    <a *ngIf="item.url" [routerLink]="item.url"><span class="text">{{item.text}}</span></a>
+    <span class="seperator" *ngIf="item.url">></span>
+  </div>
+</div>

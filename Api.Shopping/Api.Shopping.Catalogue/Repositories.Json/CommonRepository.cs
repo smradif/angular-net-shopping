@@ -18,7 +18,14 @@ namespace Api.Shopping.Catalogue.Repositories.Json
 
         public async Task<IEnumerable<TEntity>> GetAsync(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null)
         {
-            return await Task.Run(() => GetData());
+            return await Task.Run(() =>
+            {
+                if(filter != null)
+                {
+                    return GetData().Where(filter.Compile());
+                }
+                return GetData();
+            });
         }
 
         public async Task<TEntity> GetByIdAsync(string id)

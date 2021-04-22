@@ -12,5 +12,6 @@ namespace Api.Shopping.Configuration.Models
         public bool IsDevelopment { get; set; }
         public string SiteName { get; set; }
         public string DefaultCurrency { get; set; }
+        public IEnumerable<SocialItem> SocialItems { get; set; }
     }
 }

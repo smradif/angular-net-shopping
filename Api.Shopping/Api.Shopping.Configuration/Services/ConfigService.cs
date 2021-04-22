@@ -21,7 +21,8 @@ namespace Api.Shopping.Configuration.Services
                 Apis = appSettings.ApiUrls,
                 Copyright = GetCopyright(),
                 SiteName = appSettings.SiteName,
-                DefaultCurrency = appSettings.DefaultCurrency
+                DefaultCurrency = appSettings.DefaultCurrency,
+                SocialItems = appSettings.SocialItems
             };
         }
         private string GetCopyright()

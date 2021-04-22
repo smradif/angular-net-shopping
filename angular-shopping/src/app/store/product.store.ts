@@ -10,13 +10,24 @@ export class ProductStore {
     makeObservable(this);
   }
 
-  @observable public product2: Product | undefined = undefined;
+  @observable public prodKey: string = '';
+  @observable public prod: Product | undefined = undefined;
+  @observable public isLoading: boolean = false;
+
+  @action public setIsLoading(isLoading: boolean) {
+    this.isLoading = isLoading;
+  }
 
   @action public setProduct(product: Product) {
-    this.product2 = product;
+    this.prod = product;
+    this.isLoading = false;
+  }
+
+  @computed public get productKey() {
+    return this.prodKey;
   }
 
   @computed public get product() {
-    return this.product2;
+    return this.prod;
   }
 }

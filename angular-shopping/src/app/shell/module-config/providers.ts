@@ -8,7 +8,8 @@ import { ProductsStore } from "src/app/store/products.store";
 import { ProductStore } from "src/app/store/product.store";
 import { BreadcrumbStore } from "src/app/store/breadcrumb.store";
 import { BasketStore } from "src/app/store/basket.store";
-import { BasketService } from "src/app/components/basket/basket.service";
+import { BasketService } from "src/app/services/basket.service";
+import { ProductsService } from "src/app/services/products.service";
 
 export function init(stateService: StateService, configService: ConfigService) {
   const promise = new Promise((resolve) => {
@@ -41,6 +42,7 @@ export const providers = [
   ProductStore,
   BreadcrumbStore,
   BasketStore,
+  ProductsService,
   Title,
   {
     provide: APP_INITIALIZER,

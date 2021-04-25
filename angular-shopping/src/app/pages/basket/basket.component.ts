@@ -16,7 +16,5 @@ export class BasketComponent extends BaseComponent implements OnInit, OnDestroy 
   }
 
   ngOnInit() {
-    //this.breadcrumbStore.setBreadcrumb('Your Shopping Cart');
-    //this.breadcrumbStore.setBreadcrumb();
   }
 }

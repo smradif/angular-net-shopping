@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { BaseComponent } from '../components/base.component';
-import { BasketService } from '../components/basket/basket.service';
+import { BasketService } from '../services/basket.service';
 import { AppState } from '../models';
 import { StateService } from '../services';
 

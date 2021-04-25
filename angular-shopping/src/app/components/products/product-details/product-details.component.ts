@@ -1,7 +1,7 @@
 import { Component, OnDestroy, Input, ChangeDetectionStrategy } from '@angular/core';
 import { Product } from 'src/app/models';
 import { BaseComponent } from '../../base.component';
-import { ProductsService } from '../products.service';
+import { ProductsService } from '../../../services/products.service';
 
 @Component({
   selector: 'app-product-details',

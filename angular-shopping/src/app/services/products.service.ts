@@ -3,7 +3,7 @@ import { Product, ProductPhoto, ProductSize } from 'src/app/models';
 import { ApiService, ConfigService, NetworkService } from 'src/app/services';
 import { ProductStore } from 'src/app/store/product.store';
 import { ProductsStore } from 'src/app/store/products.store';
-import { BasketService } from '../basket/basket.service';
+import { BasketService } from './basket.service';
 
 @Injectable()
 export class ProductsService {

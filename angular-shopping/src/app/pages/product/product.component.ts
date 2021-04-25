@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { BaseComponent } from 'src/app/components/base.component';
-import { ProductsService } from 'src/app/components/products/products.service';
+import { ProductsService } from 'src/app/services/products.service';
 import { ProductStore } from 'src/app/store/product.store';
 
 @Component({
@@ -12,7 +12,7 @@ import { ProductStore } from 'src/app/store/product.store';
 export class ProductComponent extends BaseComponent implements OnInit, OnDestroy {
   public productKey: string = '';
   public productId: string = '';
-  
+
   constructor(public store: ProductStore, private route: ActivatedRoute, private productsService: ProductsService) {
     super();
   }

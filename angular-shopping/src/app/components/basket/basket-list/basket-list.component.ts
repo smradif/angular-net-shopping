@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy, ChangeDetectionStrategy } from '@angular/
 import { BasketItem, Product } from 'src/app/models';
 import { BasketStore } from 'src/app/store/basket.store';
 import { BaseComponent } from '../../base.component';
-import { BasketService } from '../basket.service';
+import { BasketService } from '../../../services/basket.service';
 
 @Component({
   selector: 'app-basket-list',

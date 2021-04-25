@@ -2,12 +2,13 @@ import { APP_INITIALIZER } from "@angular/core";
 import { Title } from "@angular/platform-browser";
 import { AuthGuardService } from "src/app/guards/auth.guard";
 import { AppState } from "src/app/models";
-import { NetworkService, StateService, ConfigService, AppPreloadingStrategy, ApiService, StyleManagerService, ThemeManagerService, NavigationService } from "src/app/services";
+import { NetworkService, StateService, ConfigService, AppPreloadingStrategy, ApiService, StyleManagerService, ThemeManagerService, NavigationService, StorageService } from "src/app/services";
 import { MenuStore } from "src/app/store/menu.store";
 import { ProductsStore } from "src/app/store/products.store";
 import { ProductStore } from "src/app/store/product.store";
 import { BreadcrumbStore } from "src/app/store/breadcrumb.store";
 import { BasketStore } from "src/app/store/basket.store";
+import { BasketService } from "src/app/components/basket/basket.service";
 
 export function init(stateService: StateService, configService: ConfigService) {
   const promise = new Promise((resolve) => {
@@ -28,6 +29,8 @@ export const providers = [
   NetworkService,
   StateService,
   ConfigService,
+  BasketService,
+  StorageService,
   AuthGuardService,
   AppPreloadingStrategy,
   ThemeManagerService,

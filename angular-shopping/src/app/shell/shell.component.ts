@@ -1,5 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { BaseComponent } from '../components/base.component';
+import { BasketService } from '../components/basket/basket.service';
 import { AppState } from '../models';
 import { StateService } from '../services';
 
@@ -14,7 +15,7 @@ export class ShellComponent extends BaseComponent implements OnInit, OnDestroy {
   public hasError: boolean = false;
   public title: string = '';
 
-  constructor(private stateService: StateService) {
+  constructor(private stateService: StateService, private basketService: BasketService) {
       super();
   }
 
@@ -43,6 +44,7 @@ export class ShellComponent extends BaseComponent implements OnInit, OnDestroy {
     this.subs.sink = this.stateService.appState$.subscribe((state: AppState) => {
       this.setState(state);
     });
+    this.basketService.init();
   }
 }
 

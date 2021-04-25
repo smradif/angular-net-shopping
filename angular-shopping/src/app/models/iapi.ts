@@ -17,6 +17,7 @@ interface ICatalogueApi {
   getProducts: string;
   getProduct: string;
   getImage: string;
+  getBasketItems: string;
 }
 
 interface IPaymentApi {

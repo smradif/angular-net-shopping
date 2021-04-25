@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IEnv, IConfig, IUser } from '../models';
+import { IConfig, IUser } from '../models';
 import { NetworkService } from './network.service';
 
 @Injectable()

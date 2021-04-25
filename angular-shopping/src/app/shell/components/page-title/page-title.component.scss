@@ -1,11 +1,15 @@
+@import "../../../../sass/colours.scss";
+
 .container {
   display: flex;
   justify-content: space-between;
 }
 
 .page-title {
-  font-size: 1.5rem;
   font-weight: 440;
+  cursor: pointer;
+  font-size: 2rem;
+  color: $primary-colour;
 }
 
 .shopping-cart {

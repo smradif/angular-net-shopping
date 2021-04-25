@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ChangeDetectionStrategy } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { filter, map, mergeMap } from 'rxjs/operators';
 import { BreadcrumbStore } from 'src/app/store/breadcrumb.store';
@@ -7,7 +7,8 @@ import { BaseComponent } from '../base.component';
 @Component({
   selector: 'app-breadcrumb',
   templateUrl: './breadcrumb.component.html',
-  styleUrls: ['./breadcrumb.component.scss']
+  styleUrls: ['./breadcrumb.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class BreadcrumbComponent extends BaseComponent implements OnInit, OnDestroy {
   constructor(public store: BreadcrumbStore, private router: Router, private activatedRoute: ActivatedRoute) {

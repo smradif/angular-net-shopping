@@ -1,3 +1,5 @@
+@import "../../../../sass/colours.scss";
+
 .container {
   margin: 10px 5px;
 }
@@ -11,18 +13,36 @@
 }
 
 .product-image {
-  & > img {
+  position: relative;
+  & .main-image img {
     width: 100%;
     max-width: 600px;
     max-height: 600px;
     display: block;
     margin: 0 auto;
   }
+
+  & > span {
+    width: 100%;
+    position: absolute;
+    background: $error-colour;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 1px;
+    color: white;
+    font-size: 0.8rem;
+  }
 }
 
 .product-info {
   .title {
     font-size: 1.6rem;
+    line-height: 1.6rem;
   }
 }
 
@@ -31,11 +51,8 @@
   font-size: 1.4rem;
 }
 
-.price {
-}
-
-.salePrice {
-  color: red;
+.sale-price {
+  color: $error-colour;
   padding-right: 5px;
 }
 
@@ -50,20 +67,36 @@
 .colour-size-container {
   margin-top: 50px;
   display: flex;
-  gap: 5px;
-  & > div {
-    width: 100%;
+  gap: 2px;
+
+  & select {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(226, 224, 224);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: white;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 10px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    padding: 1rem;
+    padding-right: 2rem;
+
+    &:disabled{
+      background-color: rgb(185, 184, 184);
+    }
   }
 
-  & .colour {
-    background-color: red;
+  & .colour-container {
     & > div {
       font-size: 1rem;
     }
   }
 
-  & .size {
-    background-color: green;
+  & .size-container {
     & > div {
       font-size: 1rem;
     }
@@ -72,4 +105,55 @@
 
 .action-container {
   margin-top: 30px;
+
+  & > div > button {
+    width: 300px;
+    height: 45px;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+  }
+
+  .sold-out {
+    background-color: rgb(131, 131, 131);
+    color: white;
+  }
+
+  .add-to-cart {
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .buy-now {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+      transition: opacity 300ms ease-in-out;
+    }
+  }
+}
+
+.extra-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 10px;
+
+  & > img {
+    max-width: 120px;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+      transition: opacity 150ms ease-in-out;
+    }
+  }
+}
+
+.description {
+  padding-top: 30px;
+  font-size: 1rem;
 }

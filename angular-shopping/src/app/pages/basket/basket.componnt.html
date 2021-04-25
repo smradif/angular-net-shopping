@@ -1,10 +1,8 @@
-<div class="container">
-  <div class="title">Shopping Cart</div>
-
-  <div *ngIf="isEmpty">
+<div class="container" *mobxAutorun>
+  <div *ngIf="!store.hasItems">
     <app-basket-empty></app-basket-empty>
   </div>
-  <div *ngIf="!isEmpty">
-    <app-basket-not-empty></app-basket-not-empty>
+  <div *ngIf="store.hasItems">
+    <app-basket-list></app-basket-list>
   </div>
 </div>

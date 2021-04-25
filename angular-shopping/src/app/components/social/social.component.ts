@@ -10,7 +10,9 @@ import { BaseComponent } from '../base.component';
 })
 export class SocialComponent extends BaseComponent implements OnInit, OnDestroy {
 
-  @Input() size: number = 1.5;
+  @Input() size: number = 1.3;
+  @Input() showText: boolean = false;
+
   public socialItems: SocialItem[] = [];
 
   constructor(public configService: ConfigService) {

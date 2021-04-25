@@ -14,6 +14,7 @@ namespace Api.Shopping.Catalogue.Models
         public ProductType ProductType { get; set; }
         public bool IsFeatured { get; set; }
         public IEnumerable<ProductSize> Sizes { get; set; }
+        public string ProductKey { get; set; }
     }
 
     public class ProductDescription

@@ -7,3 +7,4 @@ export * from './security.service';
 export * from './theme-manager.service';
 export * from './style-manager.service';
 export * from './navigation.service';
+export * from './storage.service';

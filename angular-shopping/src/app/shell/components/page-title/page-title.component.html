@@ -1,4 +1,4 @@
 <div class="container" *mobxAutorun>
   <div class="page-title" (click)="goToHomepage()">{{siteName}}</div>
-  <div class="shopping-cart" (click)="goToBasket()"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"> </i><span *ngIf="store.itemsCount === 0"> Cart ({{store.itemsCount}})</span></div>
+  <div class="shopping-cart" (click)="goToBasket()"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"> </i><span> Cart ({{store.quantity}})</span></div>
 </div>

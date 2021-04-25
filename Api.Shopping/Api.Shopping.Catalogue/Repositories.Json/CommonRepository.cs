@@ -13,6 +13,7 @@ namespace Api.Shopping.Catalogue.Repositories.Json
     public class CommonRepository<TEntity> : ICommonRepository<TEntity> where TEntity : BaseModel
     {
         protected string key;
+        protected static Object lockObj = new Object();
         private IDictionary<string, IEnumerable<TEntity>> database = new Dictionary<string, IEnumerable<TEntity>>();
 
 
@@ -70,11 +71,14 @@ namespace Api.Shopping.Catalogue.Repositories.Json
 
         private IEnumerable<TEntity> GetData()
         {
-            if (!database.ContainsKey(key))
+            lock (lockObj)
             {
-                database.Add(key, GetJson<IEnumerable<TEntity>>());
+                if (!database.ContainsKey(key))
+                {
+                    database.Add(key, GetJson<IEnumerable<TEntity>>());
+                }
+                return database[key];
             }
-            return database[key];
         }
 
         private void AddData(IEnumerable<TEntity> data)

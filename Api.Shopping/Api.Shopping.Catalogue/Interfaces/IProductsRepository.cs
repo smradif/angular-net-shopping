@@ -8,6 +8,7 @@ namespace Shopping.Interfaces.Repositories
     public interface IProductsRepository : ICommonRepository<Product>
     {
         Task<IEnumerable<Product>> GetProducts(string productKey);
+        Task<IEnumerable<Product>> GetProducts(IEnumerable<Product> products);
         Task<Product> GetProduct(string productKey, string productId);
     }
 }

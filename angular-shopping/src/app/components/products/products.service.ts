@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
-import { Product } from 'src/app/models';
+import { Product, ProductPhoto, ProductSize } from 'src/app/models';
 import { ApiService, ConfigService, NetworkService } from 'src/app/services';
-import { BreadcrumbStore } from 'src/app/store/breadcrumb.store';
 import { ProductStore } from 'src/app/store/product.store';
 import { ProductsStore } from 'src/app/store/products.store';
+import { BasketService } from '../basket/basket.service';
 
 @Injectable()
 export class ProductsService {
@@ -17,7 +17,7 @@ export class ProductsService {
     private networkService: NetworkService,
     private store: ProductsStore,
     private productStore: ProductStore,
-    private breadcrumbStore: BreadcrumbStore) {
+    private basketService: BasketService) {
 
     const { defaultCurrency } = this.configService.config;
     this.defaultCurrency = defaultCurrency!;
@@ -30,7 +30,7 @@ export class ProductsService {
     this.networkService.get(url).subscribe(data => {
       this.store.setProductKey(productKey);
       const updatedProducts = data.map((product: Product) => {
-         return this.updateProduct(product)
+        return this.updateProduct(product)
       });
       this.store.setProducts(updatedProducts);
     });
@@ -42,10 +42,16 @@ export class ProductsService {
     this.networkService.get(url).subscribe((product: Product) => {
       this.productKey = productKey;
       const newProduct = this.updateProduct(product);
-      const name = `${product.name} - ${product.description?.colour}`;
-      // this.breadcrumbStore.setBreadcrumb(name);
       this.productStore.setProduct(newProduct);
     });
+  }
+
+  public selectImage(url: string) {
+    this.productStore.selectImage(url);
+  }
+
+  public addToBasket() {
+    this.basketService.add(this.productStore.product!, this.productKey);
   }
 
   private getImagesPath(imageName: string) {
@@ -53,10 +59,33 @@ export class ProductsService {
   }
 
   private updateProduct(product: Product) {
-    const isOnSale = product.salePrice! > 0;
-    const isSoldOut = product.quantity === 0;
-    const imagesPath = this.getImagesPath(product.productPhoto?.name!);
-    const newProduct = { ...product, isOnSale, isSoldOut, imagesPath, defaultCurrency: this.defaultCurrency };
+    const { productPhoto, price, salePrice, quantity, sizes } = product;
+    const { name, extra } = productPhoto!;
+    const imagesPath = this.getImagesPath(name!);
+    let photos: ProductPhoto[] = [{ name: imagesPath, isSelected: true }];
+
+    for (let i = 1; i <= extra!; i++) {
+      photos.push({ name: this.getImagesPath(name! + '-' + i) });
+    }
+
+    const updatedSizes = sizes?.map((size: ProductSize, index: number) => {
+      return (index === 0) ? { ...size, isSelected: true } : { ...size };
+    });
+
+    const newProduct = {
+      ...product,
+      price,
+      productPhoto: { ...productPhoto, photos },
+      isOnSale: salePrice! > 0,
+      isSoldOut: quantity === 0,
+      imagesPath,
+      sizes: updatedSizes,
+      defaultCurrency: this.defaultCurrency
+    };
     return newProduct;
+  }
+
+  private format(x: string) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   }
 }

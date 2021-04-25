@@ -3,16 +3,15 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { BasketRoutes } from './basket.router';
 import { BasketComponent } from './basket.component';
-import { AppCommonModule } from 'src/app/common/app-common.module';
-import { BasketEmptyComponent } from 'src/app/components/basket-empty/basket-empty.component';
-import { BasketNotEmptyComponent } from 'src/app/components/basket-not-empty/basket-not-empty.component';
+import { BasketListComponent } from 'src/app/components/basket/basket-list/basket-list.component';
 import { MobxAngularModule } from 'mobx-angular';
+import { BasketEmptyComponent } from 'src/app/components/basket/basket-empty/basket-empty.component';
 
 @NgModule({
   declarations: [
     BasketComponent,
     BasketEmptyComponent,
-    BasketNotEmptyComponent
+    BasketListComponent
   ],
   imports: [
     CommonModule,

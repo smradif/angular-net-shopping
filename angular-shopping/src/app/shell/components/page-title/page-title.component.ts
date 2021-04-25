@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ChangeDetectionStrategy } from '@angular/core';
 import { Router } from '@angular/router';
 import { BaseComponent } from 'src/app/components/base.component';
 import { ConfigService } from 'src/app/services';
@@ -8,7 +8,8 @@ import { BasketStore } from 'src/app/store/basket.store';
 @Component({
   selector: 'app-page-title',
   templateUrl: './page-title.component.html',
-  styleUrls: ['./page-title.component.scss']
+  styleUrls: ['./page-title.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 
 export class PageTitleComponent extends BaseComponent implements OnInit, OnDestroy {

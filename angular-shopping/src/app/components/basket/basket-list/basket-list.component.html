@@ -1,0 +1,30 @@
+<div *mobxAutorun>
+  <div class="header container">
+    <div class="image">Product</div>
+    <div class="product-info"></div>
+    <div class="coloumn-base">Price</div>
+    <div class="coloumn-base">Quantity</div>
+    <div class="coloumn-base">Total</div>
+  </div>
+  <div class="container" *ngFor="let item of store.basketItems">
+    <div class="product-image"><a [routerLink]="['/products', item.productKey, item.title]"><img [src]="item.image" /></a></div>
+    <div class="product-info">
+      <div class="title">{{item.title}}</div>
+      <div class="size-and-colour">{{item.colour}}/{{item.size}}</div>
+      <div class="remove" (click)="removeItem(item!)">Remove</div>
+    </div>
+    <div class="price coloumn-base">{{item.price | currency}}</div>
+    <div class="quantity coloumn-base"><input type="number" value="{{item.quantity}}" (change)="updateQuantity($event, item)" />
+    </div>
+    <div class="total coloumn-base">{{item.price * item.quantity | currency}}</div>
+  </div>
+
+  <div class="actions">
+    <div class="subtotal">Subtotal {{store.total | currency}}</div>
+    <div class="notes">Taxes and shipping calculated at checkout</div>
+    <div class="update">
+      <button class="continue-shopping-button">Continue Shopping</button>
+      <button class="checkout-button">Check out</button>
+    </div>
+  </div>
+</div>

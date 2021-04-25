@@ -1,6 +1,7 @@
 import { Component, OnDestroy, Input, ChangeDetectionStrategy } from '@angular/core';
 import { Product } from 'src/app/models';
 import { BaseComponent } from '../../base.component';
+import { ProductsService } from '../products.service';
 
 @Component({
   selector: 'app-product-details',
@@ -13,8 +14,16 @@ export class ProductDetailsComponent extends BaseComponent implements OnDestroy 
 
   @Input() product: Product = {};
 
-  constructor() {
+  constructor(private productService: ProductsService) {
     super();
   }
 
+
+  selectImage(name: string) {
+    this.productService.selectImage(name);
+  }
+
+  addToCart() {
+    this.productService.addToBasket();
+  }
 }

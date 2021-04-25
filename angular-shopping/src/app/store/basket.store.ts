@@ -1,7 +1,8 @@
+import { componentFactoryName } from "@angular/compiler";
 import { Injectable } from "@angular/core";
 import { makeObservable } from "mobx";
 import { action, observable, computed } from "mobx-angular";
-import { Product, Basket } from "../models";
+import { BasketItem } from "../models";
 
 @Injectable()
 export class BasketStore {
@@ -10,38 +11,43 @@ export class BasketStore {
     makeObservable(this);
   }
 
-  @observable private items: Basket = {};
+  @observable private items: BasketItem[] = [];
 
-  @action public add(product: Product, productKey: string) {
-    const key = this.getKey(product.id!, productKey);
-    if (this.items[key]) {
-      this.items[key].push({ product });
+  @action public update(items: BasketItem[]) {
+    this.items = [...items];
+  }
+
+  @action updateQuantity(item: BasketItem, newQuantity: number) {
+    const index = this.items.findIndex(i => i.id === item.id && i.productKey === item.productKey);
+    if (newQuantity === 0) {
+      this.items.splice(index);
     } else {
-      this.items[key] = [{ product }];
+      this.items[index] = { ...this.items[index], quantity: newQuantity };
     }
   }
 
-  @action public remove(product: Product, productKey: string) {
-    const key = this.getKey(product.id!, productKey);
-    if (this.items[key]) {
-      this.items[key].pop();
-    }
-  }
-
-  @computed get shoppingCartItems() {
+  @computed get basketItems() {
     return this.items;
   }
 
-  @computed get itemsCount() {
-    let count = 0;
-    Object.values(this.items).forEach((val) => {
-      count += val.length;
+  @computed get total() {
+    let total = 0;
+    this.items.forEach(item => {
+      total += item.quantity * item.price;
     });
+    return total;
+  }
+
+  @computed get quantity() {
+    let count = 0;
+    this.items.forEach(item => {
+      count += item.quantity;
+    })
     return count;
   }
 
-  private getKey(id: string, productKey: string) {
-    return `${id}_${productKey}`;
+  @computed get hasItems() {
+    return this.quantity > 0;
   }
 
 }

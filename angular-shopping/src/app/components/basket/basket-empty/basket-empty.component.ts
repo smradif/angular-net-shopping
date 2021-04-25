@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { StateService, ConfigService } from 'src/app/services';
-import { BaseComponent } from '../base.component';
+import { BaseComponent } from '../../base.component';
 
 @Component({
   selector: 'app-basket-empty',

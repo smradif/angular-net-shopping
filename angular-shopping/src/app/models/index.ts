@@ -10,3 +10,4 @@ export * from './iproduct';
 export * from './breadcrumb';
 export * from './basket';
 export * from './socialItem';
+export * from './storage';

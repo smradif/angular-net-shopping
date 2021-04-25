@@ -1,10 +1,13 @@
 <div *ngIf="product">
   <div class="container" *mobxAutorun>
-    <div class="product-image"><img src="{{product.imagesPath}}" alt="product.description?.text" /></div>
+    <div class="product-image">
+      <img src="{{product.imagesPath}}" alt="product.description?.text" />
+      <span *ngIf="product.isOnSale">Sale</span>
+    </div>
     <div class="center-align">{{product.name}} - {{product.description?.colour}}</div>
     <div class="center-align">
-      <span *ngIf="product?.salePrice" class="salePrice">{{product.defaultCurrency}}{{product.salePrice}}</span>
-      <span class="price" [ngClass]="{'price-on-sale': product.isOnSale}">{{product.defaultCurrency}}{{product.price}}</span>
+      <span *ngIf="product?.salePrice" class="sale-price">{{product.salePrice | currency: product.defaultCurrency}}</span>
+      <span class="price" [ngClass]="{'price-on-sale': product.isOnSale}">{{product.price | currency: product.defaultCurrency}}</span>
       <span class="sold-out" *ngIf="product.isSoldOut"> -- Sold Out</span>
     </div>
   </div>

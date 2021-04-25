@@ -12,6 +12,11 @@ namespace Api.Shopping.Catalogue.Repositories.Production
             throw new System.NotImplementedException();
         }
 
+        public async Task<IEnumerable<Product>> GetProducts(IEnumerable<Product> products)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public async Task<Product> GetProduct(string productKey, string productId)
         {
             throw new System.NotImplementedException();

@@ -1,5 +1,8 @@
 <div class="container" [style.font-size.rem]="size">
-  <span *ngFor="let socialItem of socialItems">
-    <a href="{{socialItem.url}}"><i class="fa fa-{{socialItem.name}}" aria-hidden="true"></i></a>
+  <span *ngFor="let item of socialItems">
+    <a href="{{item.url}}">
+      <i class="fa fa-{{item.name}}" aria-hidden="true"></i>
+      <span *ngIf="showText" class="text">{{item.text}}</span>
+    </a>
   </span>
 </div>

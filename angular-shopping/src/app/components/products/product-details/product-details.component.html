@@ -1,30 +1,43 @@
 <div *ngIf="product">
+
   <div class="container" *mobxAutorun>
     <div class="main">
       <div class="product-image">
-        <img src="{{product.imagesPath}}" [alt]="product.description?.text" />
-        <div class="extra-images"></div>
+        <div class="main-image" *ngFor="let photo of product.productPhoto?.photos!"><img *ngIf="photo.isSelected" [src]="photo.name" /></div>
+        <span *ngIf="product.isOnSale">Sale</span>
+        <div class="extra-images">
+          <img *ngFor="let photo of product.productPhoto?.photos!" [src]="photo.name" (click)="selectImage(photo.name!)" />
+        </div>
       </div>
       <div class="product-info">
         <div class="title">{{product.name}} - {{product.description?.colour}}</div>
         <div class="price-container">
-          <span *ngIf="product?.salePrice" class="salePrice">{{product.defaultCurrency}}{{product.salePrice}}</span>
+          <span *ngIf="product?.salePrice" class="sale-price">{{product.salePrice | currency}}</span>
           <span class="price"
-            [ngClass]="{'price-on-sale': product.isOnSale}">{{product.defaultCurrency}}{{product.price}}</span>
+            [ngClass]="{'price-on-sale': product.isOnSale}">{{product.price | currency}}</span>
         </div>
         <div class="colour-size-container">
-          <div class="colour">
+          <div class="colour-container">
             <div>Colour</div>
+            <select>
+              <option selected>{{product.description?.colour!}}</option>
+            </select>
           </div>
-          <div class="size">
+          <div class="size-container">
             <div>Size</div>
+            <select [disabled]="!product.sizes || product.sizes?.length === 0">
+              <option *ngFor="let size of product.sizes" [selected]="size.isSelected">{{size.value}}</option>
+            </select>
           </div>
         </div>
         <div class="action-container">
-          <button>Sold out</button>
+          <div *ngIf="product.isSoldOut"><button class="sold-out" disabled>SOLD OUT</button></div>
+          <div *ngIf="!product.isSoldOut"><button class="add-to-cart" (click)="addToCart()">ADD TO CART</button></div>
+          <div *ngIf="!product.isSoldOut"><button class="buy-now">BUY IT NOW</button></div>
         </div>
-        <app-social></app-social>
+        <app-social [showText]="true"></app-social>
       </div>
     </div>
+    <div class="description">{{product.description?.text}}</div>
   </div>
 </div>
